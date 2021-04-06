@@ -35,20 +35,16 @@ public class PlayerMovement : MonoBehaviour
 
         // rotate player along move direction
         if (rb.velocity.magnitude > 0f)
-        {
+        {            
             Quaternion newRotation = transform.rotation;
             newRotation.SetLookRotation(new Vector3(moveDirection.x, moveDirection.y, testFloat).normalized, Vector3.back);
             transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, rotationSpeed);
         }
 
-
         // Rotate player to follow mouse
         Vector2 aimDirection = mousePosition - rb.position;
         float aimAngle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg - 90f;
         rb.rotation = aimAngle;
-
-
-
 
         /*  
         // Rotate player along movement direction - doesn't work

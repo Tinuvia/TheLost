@@ -23,6 +23,15 @@ TextureImporter:
   - first:
       213: -5567016490644431737
     second: Waterbottle
+  - first:
+      213: -1775334420153573068
+    second: BrickLoose1
+  - first:
+      213: 5403207867543354083
+    second: BrickLoose2
+  - first:
+      213: 7232308116354507315
+    second: BrickLoose3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -142,11 +151,74 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: BrickLoose1
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 937
+        width: 100
+        height: 86
+      alignment: 9
+      pivot: {x: 0.48, y: 0.47674417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431e83140cebc57e0800000000000000
+      internalID: -1775334420153573068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickLoose2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 802
+        width: 87
+        height: 66
+      alignment: 9
+      pivot: {x: 0.50574714, y: 0.4848485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea74889dec0cfa40800000000000000
+      internalID: 5403207867543354083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickLoose3
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 754
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3322c75d9e15e5460800000000000000
+      internalID: 7232308116354507315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Magazine
       rect:
         serializedVersion: 2
         x: 386
-        y: 958
+        y: 870
         width: 97
         height: 65
       alignment: 9
@@ -208,7 +280,7 @@ TextureImporter:
       name: Projectile
       rect:
         serializedVersion: 2
-        x: 485
+        x: 488
         y: 998
         width: 15
         height: 25

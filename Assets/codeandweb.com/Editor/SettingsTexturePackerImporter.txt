@@ -4,6 +4,7 @@ tpsheetFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.tpsheet
 - Assets/Sprites/EnemyReaver/EnemyReaver_Dead.tpsheet
 - Assets/Sprites/EnemyReaver/EnemyReaver_Walk.tpsheet
+- Assets/Sprites/Foliage/Foliage01.tpsheet
 - Assets/Sprites/Objects/Objects.tpsheet
 - Assets/Sprites/PlayerMale/PlayerMaleFire/PlayerMale_Fire.tpsheet
 - Assets/Sprites/PlayerMale/PlayerMaleIdle/PlayerMale_Idle.tpsheet
@@ -15,6 +16,7 @@ textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/Sprites/EnemyReaver/EnemyReaver_Dead.png
 - Assets/Sprites/EnemyReaver/EnemyReaver_Walk.png
+- Assets/Sprites/Foliage/Foliage01.png
 - Assets/Sprites/Objects/Objects.png
 - Assets/Sprites/PlayerMale/PlayerMaleFire/PlayerMale_Fire.png
 - Assets/Sprites/PlayerMale/PlayerMaleIdle/PlayerMale_Idle.png
@@ -24,6 +26,7 @@ textureFileNames:
 - Assets/Sprites/Tiles/Tiles01.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
+- 
 - 
 - 
 - 

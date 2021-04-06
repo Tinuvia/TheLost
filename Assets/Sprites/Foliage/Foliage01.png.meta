@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: e71f8b811ff73ab439f9681af81b2623
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1888323103834737593
+    second: Foliage01_0
+  - first:
+      213: 8593173780636496496
+    second: Foliage01_1
+  - first:
+      213: 832180404289866646
+    second: Foliage01_0
+  - first:
+      213: 6433760899128073387
+    second: Foliage01_1
+  - first:
+      213: 1177726011068796684
+    second: Foliage01_2
+  - first:
+      213: 3860742467438192399
+    second: Foliage01_3
+  - first:
+      213: 2609845550251308188
+    second: Foliage01_3
+  - first:
+      213: 7713475572434569396
+    second: Foliage01_5
+  - first:
+      213: -342752025867597667
+    second: Foliage01_2
+  - first:
+      213: 91462028054997416
+    second: Foliage01_3
+  - first:
+      213: 8875951492384022414
+    second: Foliage01_8
+  - first:
+      213: -1888323103834737593
+    second: Foliage
+  - first:
+      213: 8593173780636496496
+    second: Foliage2
+  - first:
+      213: -157030427437365822
+    second: Foliage01_9
+  - first:
+      213: -2928724514476799344
+    second: Foliage01_1
+  - first:
+      213: 3784594531301328187
+    second: Branches01
+  - first:
+      213: 2667739545910422624
+    second: Branches02
+  - first:
+      213: 628208418780083074
+    second: PalmLeaves01
+  - first:
+      213: 863877479198712850
+    second: PalmLeaves02
+  - first:
+      213: 685319601191994478
+    second: PalmLeaves03
+  - first:
+      213: 1768777246874134799
+    second: SmallLeaves01
+  - first:
+      213: -9192730071042862826
+    second: SmallLeaves02
+  - first:
+      213: 2483625645627044948
+    second: SmallLeaves03
+  - first:
+      213: 8768021603989425661
+    second: Vine01
+  - first:
+      213: 8994503055324302828
+    second: Vine02
+  - first:
+      213: -2153944622311742920
+    second: Vine03
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Branches01
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 1302
+        width: 270
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b350a11bca4958430800000000000000
+      internalID: 3784594531301328187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Branches02
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 987
+        width: 269
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06ca0439bf6b50520800000000000000
+      internalID: 2667739545910422624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PalmLeaves01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1019
+        width: 739
+        height: 598
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283fb4e7a38d7b800800000000000000
+      internalID: 628208418780083074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PalmLeaves02
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1619
+        width: 881
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21469158dfb1dfb00800000000000000
+      internalID: 863877479198712850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PalmLeaves03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 522
+        height: 440
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6449aadb8eb28900800000000000000
+      internalID: 685319601191994478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallLeaves01
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 121
+        width: 231
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f09e9bed885fb8810800000000000000
+      internalID: 1768777246874134799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallLeaves02
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 757
+        width: 242
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611507f94bcdc6080800000000000000
+      internalID: -9192730071042862826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SmallLeaves03
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 570
+        width: 154
+        height: 243
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45476aaad5c977220800000000000000
+      internalID: 2483625645627044948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine01
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 815
+        width: 192
+        height: 202
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd8db0a1354ea970800000000000000
+      internalID: 8768021603989425661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine02
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 459
+        width: 342
+        height: 296
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced45c7bfd4e2dc70800000000000000
+      internalID: 8994503055324302828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Vine03
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 271
+        width: 229
+        height: 304
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832ee3137c6ab12e0800000000000000
+      internalID: -2153944622311742920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 0ad4df07da2ac3c48a92ae2426a1ac4d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

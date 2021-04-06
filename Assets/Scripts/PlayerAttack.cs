@@ -20,7 +20,8 @@ public class PlayerAttack : MonoBehaviour
     private void Update() {
         if(Input.GetMouseButtonDown(0)) {
             Fire();
-        } else if (Input.GetMouseButtonUp(0)) {
+        }
+        if (Input.GetMouseButtonUp(0)) {
             StopFiring();
         }
     }
