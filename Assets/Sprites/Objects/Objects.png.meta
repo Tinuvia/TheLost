@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: f233adcaecd725842ae733f66b7acd6a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8589099162743880242
+    second: Bedroll
+  - first:
+      213: -4450187690458833534
+    second: Box
+  - first:
+      213: -3256445941906062308
+    second: Magazine
+  - first:
+      213: 8538603060529958764
+    second: MedMini
+  - first:
+      213: -3351081244269871772
+    second: MedPack
+  - first:
+      213: 677311461089837541
+    second: Projectile
+  - first:
+      213: -5567016490644431737
+    second: Waterbottle
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Bedroll
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 421
+        width: 359
+        height: 158
+      alignment: 9
+      pivot: {x: 0.7130919, y: 0.8829114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5cb0881d36dc880800000000000000
+      internalID: -8589099162743880242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Box
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 825
+        width: 383
+        height: 198
+      alignment: 9
+      pivot: {x: 0.62663186, y: 0.37626263}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d9266afd1cd32c0800000000000000
+      internalID: -4450187690458833534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Magazine
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 958
+        width: 97
+        height: 65
+      alignment: 9
+      pivot: {x: 1.6391753, y: -0.16153847}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c144d625ba7cec2d0800000000000000
+      internalID: -3256445941906062308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedMini
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 151
+        width: 160
+        height: 108
+      alignment: 9
+      pivot: {x: 1.1, y: 0.375}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f83fc7e363f7670800000000000000
+      internalID: 8538603060529958764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MedPack
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 581
+        width: 365
+        height: 242
+      alignment: 9
+      pivot: {x: 0.6136986, y: 0.01446281}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46df1d5fc519e71d0800000000000000
+      internalID: -3351081244269871772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Projectile
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 998
+        width: 15
+        height: 25
+      alignment: 9
+      pivot: {x: 0.53333336, y: 0.54}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e18f807f2b466900800000000000000
+      internalID: 677311461089837541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Waterbottle
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 261
+        width: 155
+        height: 158
+      alignment: 9
+      pivot: {x: 1.3419355, y: 0.047468353}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c95604ffbfdb2b0800000000000000
+      internalID: -5567016490644431737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

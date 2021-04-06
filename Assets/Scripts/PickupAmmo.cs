@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class PickupAmmo : MonoBehaviour
+{
+    [SerializeField] private int ammoCount;
+    private PlayerAttack playerAttackScript;
+
+    void Start()
+    {
+        playerAttackScript = GameObject.Find("Player").GetComponent<PlayerAttack>();
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            playerAttackScript.UpdateAmmo(ammoCount);
+            // When OBJECT POOLING - setactive(false)
+            Destroy(gameObject);
+        }
+    }
+}

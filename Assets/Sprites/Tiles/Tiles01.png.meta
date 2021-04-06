@@ -1,0 +1,576 @@
+fileFormatVersion: 2
+guid: a9cea844f9b8d0a42a41e19e89455985
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6448832585698385253
+    second: Brick
+  - first:
+      213: -1775334420153573068
+    second: BrickLoose1
+  - first:
+      213: 5403207867543354083
+    second: BrickLoose2
+  - first:
+      213: 7232308116354507315
+    second: BrickLoose3
+  - first:
+      213: -2727699785648066001
+    second: Grass
+  - first:
+      213: 8739903147907984006
+    second: GrassBrickBottom
+  - first:
+      213: -3064435973890592237
+    second: GrassBrickLeft
+  - first:
+      213: -5161177377217511504
+    second: GrassBrickRight
+  - first:
+      213: -6313944219641689638
+    second: GrassBrickTop
+  - first:
+      213: 7395363651208740343
+    second: Mud
+  - first:
+      213: 1435864704575528863
+    second: MudBrickBottom
+  - first:
+      213: 8918444989187453860
+    second: MudBrickLeft
+  - first:
+      213: 1622311259510978015
+    second: MudBrickRight
+  - first:
+      213: 7083917465642963344
+    second: MudBrickTop
+  - first:
+      213: 2551592884163868030
+    second: BrickEdgeLeft
+  - first:
+      213: 1703272152250425763
+    second: BrickHalf
+  - first:
+      213: 3066899381922178789
+    second: GrassEdgeUpper
+  - first:
+      213: -448089570285525890
+    second: GrassHalf
+  - first:
+      213: -4550700054396975230
+    second: GrassHalfUpper
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 512
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Brick
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3583
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b92eb714ee42186a0800000000000000
+      internalID: -6448832585698385253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickEdgeLeft
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 3312
+        width: 126
+        height: 512
+      alignment: 9
+      pivot: {x: 2.0317461, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7570009534196320800000000000000
+      internalID: 2551592884163868030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickHalf
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 3826
+        width: 452
+        height: 269
+      alignment: 9
+      pivot: {x: 0.49336284, y: 0.95167285}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a1a3b68ffc33a710800000000000000
+      internalID: 1703272152250425763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickLoose1
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 3738
+        width: 100
+        height: 86
+      alignment: 9
+      pivot: {x: 0.48, y: 0.47674417}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 431e83140cebc57e0800000000000000
+      internalID: -1775334420153573068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickLoose2
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 3758
+        width: 87
+        height: 66
+      alignment: 9
+      pivot: {x: 0.50574714, y: 0.4848485}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ea74889dec0cfa40800000000000000
+      internalID: 5403207867543354083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BrickLoose3
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 3778
+        width: 59
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3322c75d9e15e5460800000000000000
+      internalID: 7232308116354507315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Grass
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 3583
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22b9863f73452ad0800000000000000
+      internalID: -2727699785648066001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassBrickBottom
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 3583
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68aaf566b9f5a4970800000000000000
+      internalID: 8739903147907984006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassBrickLeft
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3069
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312b253c7bfe875d0800000000000000
+      internalID: -3064435973890592237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassBrickRight
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 3069
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bffa204580df58b0800000000000000
+      internalID: -5161177377217511504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassBrickTop
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 3069
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad940a85f2d5068a0800000000000000
+      internalID: -6313944219641689638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassEdgeUpper
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 1868
+        width: 512
+        height: 171
+      alignment: 9
+      pivot: {x: 0.5, y: 1.497076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6265d1db0df8a20800000000000000
+      internalID: 3066899381922178789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassHalf
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2555
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74e29fe8e018c9f0800000000000000
+      internalID: -448089570285525890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GrassHalfUpper
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1529
+        width: 512
+        height: 510
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49803922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2874152496aa8d0c0800000000000000
+      internalID: -4550700054396975230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mud
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2555
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fdf127fe0c91a660800000000000000
+      internalID: 7395363651208740343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MudBrickBottom
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 2555
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9fdebd57573de310800000000000000
+      internalID: 1435864704575528863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MudBrickLeft
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2041
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a37169377ea4cb70800000000000000
+      internalID: 8918444989187453860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MudBrickRight
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 2041
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd5b442ce7b938610800000000000000
+      internalID: 1622311259510978015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MudBrickTop
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 2041
+        width: 512
+        height: 512
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09195dd17612f4260800000000000000
+      internalID: 7083917465642963344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

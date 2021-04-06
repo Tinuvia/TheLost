@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: 7a51ccc340000794e96b5cc0b578a6cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1013767526060939736
+    second: ReaverMove0001
+  - first:
+      213: -8593470963383621708
+    second: ReaverMove0002
+  - first:
+      213: -3883548336796078577
+    second: ReaverMove0003
+  - first:
+      213: 3594844619009238312
+    second: ReaverMove0004
+  - first:
+      213: -2521175421392386417
+    second: ReaverMove0005
+  - first:
+      213: 5686844143656994106
+    second: ReaverMove0006
+  - first:
+      213: 6440044514822478073
+    second: ReaverMove0007
+  - first:
+      213: 9126747441598490432
+    second: ReaverMove0008
+  - first:
+      213: -3507236933279426244
+    second: ReaverMove0009
+  - first:
+      213: 5060196105258668108
+    second: ReaverMove0010
+  - first:
+      213: -5623853373704087104
+    second: ReaverMove0011
+  - first:
+      213: -8234230706787981256
+    second: ReaverMove0012
+  - first:
+      213: 5901484474222712017
+    second: ReaverMove0013
+  - first:
+      213: -1195900870525998598
+    second: ReaverMove0014
+  - first:
+      213: 2669169129800864331
+    second: ReaverMove0015
+  - first:
+      213: -8402692653217166723
+    second: ReaverMove0016
+  - first:
+      213: 715556131911759023
+    second: ReaverMove0017
+  - first:
+      213: 8313887062563374690
+    second: ReaverMove0018
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ReaverMove0001
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 902
+        width: 207
+        height: 121
+      alignment: 9
+      pivot: {x: 0.38405797, y: 1.4669422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 826af446ecf5ee1f0800000000000000
+      internalID: -1013767526060939736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0002
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 592
+        width: 200
+        height: 150
+      alignment: 9
+      pivot: {x: 0.3875, y: 1.21}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b7a2ef50bbddb880800000000000000
+      internalID: -8593470963383621708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0003
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 21
+        width: 210
+        height: 184
+      alignment: 9
+      pivot: {x: 0.40238094, y: 0.96467394}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ee5351d5dda1ac0800000000000000
+      internalID: -3883548336796078577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0004
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 207
+        width: 245
+        height: 214
+      alignment: 9
+      pivot: {x: 0.422449, y: 0.86214954}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82525ca722473e130800000000000000
+      internalID: 3594844619009238312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0005
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 423
+        width: 229
+        height: 269
+      alignment: 9
+      pivot: {x: 0.38646287, y: 0.78624535}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f86067fdf4cf20dd0800000000000000
+      internalID: -2521175421392386417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0006
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 694
+        width: 246
+        height: 329
+      alignment: 9
+      pivot: {x: 0.43292683, y: 0.7066869}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a358fa35e9abbee40800000000000000
+      internalID: 5686844143656994106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0007
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 107
+        width: 225
+        height: 271
+      alignment: 9
+      pivot: {x: 0.3888889, y: 0.78044283}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f852bb8d52af5950800000000000000
+      internalID: 6440044514822478073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0008
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 807
+        width: 242
+        height: 216
+      alignment: 9
+      pivot: {x: 0.4070248, y: 0.8402778}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047ee2b4178b8ae70800000000000000
+      internalID: 9126747441598490432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0009
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 28
+        width: 207
+        height: 177
+      alignment: 9
+      pivot: {x: 0.3888889, y: 0.9915254}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39dfb0679ac35fc0800000000000000
+      internalID: -3507236933279426244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0010
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 744
+        width: 202
+        height: 156
+      alignment: 9
+      pivot: {x: 0.3589109, y: 1.1955128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4012c33c8d693640800000000000000
+      internalID: 5060196105258668108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0011
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 659
+        width: 218
+        height: 153
+      alignment: 9
+      pivot: {x: 0.35550457, y: 1.2320261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c95c7f272f04f1b0800000000000000
+      internalID: -5623853373704087104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0012
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 814
+        width: 222
+        height: 209
+      alignment: 9
+      pivot: {x: 0.3581081, y: 0.9832536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838e94b8cc22abd80800000000000000
+      internalID: -8234230706787981256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 228
+        height: 279
+      alignment: 9
+      pivot: {x: 0.35745615, y: 0.8548387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d41785acd846e150800000000000000
+      internalID: 5901484474222712017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0014
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 380
+        width: 241
+        height: 312
+      alignment: 9
+      pivot: {x: 0.39626557, y: 0.7516026}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af9a7b19e7e476fe0800000000000000
+      internalID: -1195900870525998598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 99
+        width: 228
+        height: 279
+      alignment: 9
+      pivot: {x: 0.35745615, y: 0.8548387}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4218338e2bca0520800000000000000
+      internalID: 2669169129800864331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0016
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 814
+        width: 222
+        height: 209
+      alignment: 9
+      pivot: {x: 0.3581081, y: 0.9832536}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ac4302d83a36b80800000000000000
+      internalID: -8402692653217166723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0017
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 659
+        width: 218
+        height: 153
+      alignment: 9
+      pivot: {x: 0.35550457, y: 1.2320261}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa4f373c28a2ee900800000000000000
+      internalID: 715556131911759023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ReaverMove0018
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 744
+        width: 202
+        height: 156
+      alignment: 9
+      pivot: {x: 0.3589109, y: 1.1955128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2664eca0c3cd06370800000000000000
+      internalID: 8313887062563374690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,2472 @@
+fileFormatVersion: 2
+guid: 35a1d083553072b4294775d81f0ea78f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7132464829466602807
+    second: GunmanIdle0001
+  - first:
+      213: 2357433702269188648
+    second: GunmanIdle0002
+  - first:
+      213: 3773487540752792103
+    second: GunmanIdle0003
+  - first:
+      213: 4077692784915433198
+    second: GunmanIdle0004
+  - first:
+      213: 3341278828317462265
+    second: GunmanIdle0005
+  - first:
+      213: -4017476481354517586
+    second: GunmanIdle0006
+  - first:
+      213: -3166712123294547044
+    second: GunmanIdle0007
+  - first:
+      213: 3461958102948736743
+    second: GunmanIdle0008
+  - first:
+      213: -6676898149271780836
+    second: GunmanIdle0009
+  - first:
+      213: 2127684752161998160
+    second: GunmanIdle0010
+  - first:
+      213: 7588840032092847353
+    second: GunmanIdle0011
+  - first:
+      213: 2653848141932576939
+    second: GunmanIdle0012
+  - first:
+      213: 1205901675383668702
+    second: GunmanIdle0013
+  - first:
+      213: -4732807038164992730
+    second: GunmanIdle0014
+  - first:
+      213: 769874230197674783
+    second: GunmanIdle0015
+  - first:
+      213: 2505749349567903734
+    second: GunmanIdle0016
+  - first:
+      213: 3868788343799767328
+    second: GunmanIdle0017
+  - first:
+      213: 7371570037500871842
+    second: GunmanIdle0018
+  - first:
+      213: 6032060571186162424
+    second: GunmanIdle0019
+  - first:
+      213: 5646430807755473436
+    second: GunmanIdle0020
+  - first:
+      213: -763648828611050813
+    second: GunmanIdle0021
+  - first:
+      213: -3251296435215686758
+    second: GunmanIdle0022
+  - first:
+      213: -7277903810385142653
+    second: GunmanIdle0023
+  - first:
+      213: -7264139505796236439
+    second: GunmanIdle0024
+  - first:
+      213: 8397707489082129980
+    second: GunmanIdle0025
+  - first:
+      213: 4081801211995653992
+    second: GunmanIdle0026
+  - first:
+      213: -337038630215681135
+    second: GunmanIdle0027
+  - first:
+      213: -1158314946297055914
+    second: GunmanIdle0028
+  - first:
+      213: -6005637915458156311
+    second: GunmanIdle0029
+  - first:
+      213: -5223482394346726493
+    second: GunmanIdle0030
+  - first:
+      213: 5234536990619241009
+    second: GunmanIdle0031
+  - first:
+      213: -1138882638879973236
+    second: GunmanIdle0032
+  - first:
+      213: 8138868396300298367
+    second: GunmanIdle0033
+  - first:
+      213: 4003981094752191081
+    second: GunmanIdle0034
+  - first:
+      213: 3575806970400279468
+    second: GunmanIdle0035
+  - first:
+      213: 1754236365982220090
+    second: GunmanIdle0036
+  - first:
+      213: 8982835771842182840
+    second: GunmanIdle0037
+  - first:
+      213: 7619723591763198219
+    second: GunmanIdle0038
+  - first:
+      213: -2248991150645084042
+    second: GunmanIdle0039
+  - first:
+      213: -4623421126482394164
+    second: GunmanIdle0040
+  - first:
+      213: 8097203692620821014
+    second: GunmanIdle0041
+  - first:
+      213: 7281807279154479030
+    second: GunmanIdle0042
+  - first:
+      213: -4490546830891483114
+    second: GunmanIdle0043
+  - first:
+      213: -1599220300020363359
+    second: GunmanIdle0044
+  - first:
+      213: 8722493991788065210
+    second: GunmanIdle0045
+  - first:
+      213: -4055875312877413753
+    second: GunmanIdle0046
+  - first:
+      213: 769077112295545813
+    second: GunmanIdle0047
+  - first:
+      213: -8369483758707565428
+    second: GunmanIdle0048
+  - first:
+      213: 6781298888157706767
+    second: GunmanIdle0049
+  - first:
+      213: -8545827291758178015
+    second: GunmanIdle0050
+  - first:
+      213: 6004139154634080345
+    second: GunmanIdle0051
+  - first:
+      213: 5685777677774424653
+    second: GunmanIdle0052
+  - first:
+      213: 5977663719163998427
+    second: GunmanIdle0053
+  - first:
+      213: -1227922874803426179
+    second: GunmanIdle0054
+  - first:
+      213: -5414718414674562848
+    second: GunmanIdle0055
+  - first:
+      213: -7153849820246177076
+    second: GunmanIdle0056
+  - first:
+      213: 656217844651333566
+    second: GunmanIdle0057
+  - first:
+      213: 3395551088371475312
+    second: GunmanIdle0058
+  - first:
+      213: 1210466269675075966
+    second: GunmanIdle0059
+  - first:
+      213: 1098837512905556672
+    second: GunmanIdle0060
+  - first:
+      213: 5369969160575480850
+    second: GunmanIdle0061
+  - first:
+      213: 4292260464205920568
+    second: GunmanIdle0062
+  - first:
+      213: 7100662654943955173
+    second: GunmanIdle0063
+  - first:
+      213: 3200416152779249745
+    second: GunmanIdle0064
+  - first:
+      213: -7446313715535661573
+    second: GunmanIdle0065
+  - first:
+      213: -8993115025782980049
+    second: GunmanIdle0066
+  - first:
+      213: 883954091478872294
+    second: GunmanIdle0067
+  - first:
+      213: 6966937994164910847
+    second: GunmanIdle0068
+  - first:
+      213: 7457327291160487524
+    second: GunmanIdle0069
+  - first:
+      213: 6366913891342980026
+    second: GunmanIdle0070
+  - first:
+      213: -9018389979616077502
+    second: GunmanIdle0071
+  - first:
+      213: -5236404793402171117
+    second: GunmanIdle0072
+  - first:
+      213: 4083487012042348421
+    second: GunmanIdle0073
+  - first:
+      213: 5846681179643347509
+    second: GunmanIdle0074
+  - first:
+      213: 1797263805273002146
+    second: GunmanIdle0075
+  - first:
+      213: -4817144010016769598
+    second: GunmanIdle0076
+  - first:
+      213: -835072652811623728
+    second: GunmanIdle0077
+  - first:
+      213: 6621239441367064815
+    second: GunmanIdle0078
+  - first:
+      213: -876381759374357539
+    second: GunmanIdle0079
+  - first:
+      213: -3034358077384507683
+    second: GunmanIdle0080
+  - first:
+      213: -5532598333838755727
+    second: GunmanIdle0081
+  - first:
+      213: -7006466397118934906
+    second: GunmanIdle0082
+  - first:
+      213: 7128399921293799615
+    second: GunmanIdle0083
+  - first:
+      213: 8372063562618721109
+    second: GunmanIdle0084
+  - first:
+      213: -6497337927623234500
+    second: GunmanIdle0085
+  - first:
+      213: 8879768041108924188
+    second: GunmanIdle0086
+  - first:
+      213: 86274696313246462
+    second: GunmanIdle0087
+  - first:
+      213: 7776764011018137711
+    second: GunmanIdle0088
+  - first:
+      213: -8005301491997224286
+    second: GunmanRestResize0001
+  - first:
+      213: 4239184742352216894
+    second: GunmanRestResize0002
+  - first:
+      213: 3119694595383896499
+    second: GunmanRestResize0003
+  - first:
+      213: -7671358687111839830
+    second: GunmanRestResize0004
+  - first:
+      213: 1472652539765261816
+    second: GunmanRestResize0005
+  - first:
+      213: -2953267984650068501
+    second: GunmanRestResize0006
+  - first:
+      213: 188578284958881865
+    second: GunmanRestResize0007
+  - first:
+      213: 1519351357004329324
+    second: GunmanRestResize0008
+  - first:
+      213: -5539425769800235645
+    second: GunmanRestResize0009
+  - first:
+      213: -9143141843410976491
+    second: GunmanRestResize0010
+  - first:
+      213: 5719856117265198975
+    second: GunmanRestResize0011
+  - first:
+      213: 1352521823119024426
+    second: GunmanRestResize0012
+  - first:
+      213: -5101323839800919462
+    second: GunmanRestResize0013
+  - first:
+      213: 488802017817530987
+    second: GunmanRestResize0014
+  - first:
+      213: -1029686522253079316
+    second: GunmanRestResize0015
+  - first:
+      213: -779795277290488540
+    second: GunmanRestResize0016
+  - first:
+      213: 6585282388271621909
+    second: GunmanRestResize0017
+  - first:
+      213: 6792318346638222178
+    second: GunmanRestResize0018
+  - first:
+      213: -8660523458101001505
+    second: GunmanRestResize0019
+  - first:
+      213: -3313376707714233100
+    second: GunmanRestResize0020
+  - first:
+      213: 1319627978965394849
+    second: GunmanRestResize0021
+  - first:
+      213: 6493472066475365286
+    second: GunmanRestResize0022
+  - first:
+      213: 6505453027782986842
+    second: GunmanRestResize0023
+  - first:
+      213: -2429885458650875290
+    second: GunmanRestResize0024
+  - first:
+      213: 2785299554725329586
+    second: GunmanRestResize0025
+  - first:
+      213: 375173694129127989
+    second: GunmanRestResize0026
+  - first:
+      213: -4366034925987311123
+    second: GunmanRestResize0027
+  - first:
+      213: -5987358184676610796
+    second: GunmanRestResize0028
+  - first:
+      213: 5366074866163910022
+    second: GunmanRestResize0029
+  - first:
+      213: 7188958862880417771
+    second: GunmanRestResize0030
+  - first:
+      213: -378731106963423343
+    second: GunmanRestResize0031
+  - first:
+      213: -3835438844709387357
+    second: GunmanRestResize0032
+  - first:
+      213: -8799966193636235939
+    second: GunmanRestResize0033
+  - first:
+      213: -4678003315350901797
+    second: GunmanRestResize0034
+  - first:
+      213: 6289469818607231365
+    second: GunmanRestResize0035
+  - first:
+      213: -3824170345083719050
+    second: GunmanRestResize0036
+  - first:
+      213: -9054247796375770025
+    second: GunmanRestResize0037
+  - first:
+      213: 8995496082686297236
+    second: GunmanRestResize0038
+  - first:
+      213: 1113243378784280702
+    second: GunmanRestResize0039
+  - first:
+      213: 7270508782054483879
+    second: GunmanRestResize0040
+  - first:
+      213: -472509118040804486
+    second: GunmanRestResize0041
+  - first:
+      213: -8349342873295647011
+    second: GunmanRestResize0042
+  - first:
+      213: -2823573392699098156
+    second: GunmanRestResize0043
+  - first:
+      213: 7105319338693547177
+    second: GunmanRestResize0044
+  - first:
+      213: 4999485257947814320
+    second: GunmanRestResize0045
+  - first:
+      213: -5471482837376832273
+    second: GunmanRestResize0046
+  - first:
+      213: 4129057425190831667
+    second: GunmanRestResize0047
+  - first:
+      213: 1497754823648045193
+    second: GunmanRestResize0048
+  - first:
+      213: 411977298633899108
+    second: GunmanRestResize0049
+  - first:
+      213: -6371934113927683645
+    second: GunmanRestResize0050
+  - first:
+      213: 8018758136950546589
+    second: GunmanRestResize0051
+  - first:
+      213: -6614460502705587043
+    second: GunmanRestResize0052
+  - first:
+      213: 3752967793506772261
+    second: GunmanRestResize0053
+  - first:
+      213: -8477953717967193748
+    second: GunmanRestResize0054
+  - first:
+      213: -4631593883911566603
+    second: GunmanRestResize0055
+  - first:
+      213: 449421990728956693
+    second: GunmanRestResize0056
+  - first:
+      213: 6007021783369572379
+    second: GunmanRestResize0057
+  - first:
+      213: 4308687898089596217
+    second: GunmanRestResize0058
+  - first:
+      213: 9052091201629128251
+    second: GunmanRestResize0059
+  - first:
+      213: 4843373073672571427
+    second: GunmanRestResize0060
+  - first:
+      213: 64363685564688532
+    second: GunmanRestResize0061
+  - first:
+      213: 6505382950568729762
+    second: GunmanRestResize0062
+  - first:
+      213: 1282250769928606567
+    second: GunmanRestResize0063
+  - first:
+      213: -8784349112306366979
+    second: GunmanRestResize0064
+  - first:
+      213: -1544384745218251911
+    second: GunmanRestResize0065
+  - first:
+      213: -5041194328338346645
+    second: GunmanRestResize0066
+  - first:
+      213: -8524901519996395194
+    second: GunmanRestResize0067
+  - first:
+      213: 6549463297633531051
+    second: GunmanRestResize0068
+  - first:
+      213: 6836019215078965763
+    second: GunmanRestResize0069
+  - first:
+      213: 462640467437049294
+    second: GunmanRestResize0070
+  - first:
+      213: -8085039426087383390
+    second: GunmanRestResize0071
+  - first:
+      213: 1686245955354637224
+    second: GunmanRestResize0072
+  - first:
+      213: -2848967025411059112
+    second: GunmanRestResize0073
+  - first:
+      213: -1530032741409253678
+    second: GunmanRestResize0074
+  - first:
+      213: 1984474193566548304
+    second: GunmanRestResize0075
+  - first:
+      213: -9078519275741042500
+    second: GunmanRestResize0076
+  - first:
+      213: -2990428407060899822
+    second: GunmanRestResize0077
+  - first:
+      213: -8282885996352668812
+    second: GunmanRestResize0078
+  - first:
+      213: 4869110528723333490
+    second: GunmanRestResize0079
+  - first:
+      213: 5165898706324595706
+    second: GunmanRestResize0080
+  - first:
+      213: -4647560453491457822
+    second: GunmanRestResize0081
+  - first:
+      213: -262025135332056451
+    second: GunmanRestResize0082
+  - first:
+      213: -7640308481266379265
+    second: GunmanRestResize0083
+  - first:
+      213: -1002547529560279070
+    second: GunmanRestResize0084
+  - first:
+      213: -981595331683163364
+    second: GunmanRestResize0085
+  - first:
+      213: 2252166349702986589
+    second: GunmanRestResize0086
+  - first:
+      213: -12340659912962879
+    second: GunmanRestResize0087
+  - first:
+      213: 2670599856284795065
+    second: GunmanRestResize0088
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GunmanIdle0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1578
+        width: 272
+        height: 212
+      alignment: 9
+      pivot: {x: 0.50735295, y: 0.3018868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c21daae605640d90800000000000000
+      internalID: -7132464829466602807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0002
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 535
+        width: 237
+        height: 228
+      alignment: 9
+      pivot: {x: 0.43459916, y: 0.29385966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82af945467947b020800000000000000
+      internalID: 2357433702269188648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0003
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1144
+        width: 252
+        height: 186
+      alignment: 9
+      pivot: {x: 0.4563492, y: 0.3655914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72abeeeecee1e5430800000000000000
+      internalID: 3773487540752792103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0004
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 765
+        width: 242
+        height: 163
+      alignment: 9
+      pivot: {x: 0.4752066, y: 0.43558282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6ce0cbbffd69830800000000000000
+      internalID: 4077692784915433198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0005
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1100
+        width: 245
+        height: 135
+      alignment: 9
+      pivot: {x: 0.46530613, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fe4569346b9e5e20800000000000000
+      internalID: 3341278828317462265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0006
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1100
+        width: 245
+        height: 135
+      alignment: 9
+      pivot: {x: 0.46530613, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea3b06bfc6e0f38c0800000000000000
+      internalID: -4017476481354517586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0007
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1100
+        width: 245
+        height: 135
+      alignment: 9
+      pivot: {x: 0.46530613, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c930b111a149d04d0800000000000000
+      internalID: -3166712123294547044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0008
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 1100
+        width: 245
+        height: 135
+      alignment: 9
+      pivot: {x: 0.46530613, y: 0.4888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee6b896d885b0030800000000000000
+      internalID: 3461958102948736743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0009
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1332
+        width: 253
+        height: 118
+      alignment: 9
+      pivot: {x: 0.49011856, y: 0.5423729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12413b4284e653a0800000000000000
+      internalID: -6676898149271780836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0010
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1452
+        width: 265
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5207547, y: 0.5564516}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05581a6520e078d10800000000000000
+      internalID: 2127684752161998160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0011
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1919
+        width: 282
+        height: 128
+      alignment: 9
+      pivot: {x: 0.56028366, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fc78224dc9f05960800000000000000
+      internalID: 7588840032092847353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0012
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1924
+        width: 289
+        height: 123
+      alignment: 9
+      pivot: {x: 0.57093424, y: 0.5609756}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0c8bb03dc54d420800000000000000
+      internalID: 2653848141932576939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0013
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1922
+        width: 289
+        height: 125
+      alignment: 9
+      pivot: {x: 0.57093424, y: 0.552}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfba434f293cb010800000000000000
+      internalID: 1205901675383668702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0014
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 1919
+        width: 282
+        height: 128
+      alignment: 9
+      pivot: {x: 0.56028366, y: 0.53125}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62df4b30311b15eb0800000000000000
+      internalID: -4732807038164992730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0015
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f13e8ac88842faa00800000000000000
+      internalID: 769874230197674783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0016
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 460
+        width: 233
+        height: 145
+      alignment: 9
+      pivot: {x: 0.46781117, y: 0.47586206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f73925e1c536c220800000000000000
+      internalID: 2505749349567903734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0017
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 738
+        width: 238
+        height: 178
+      alignment: 9
+      pivot: {x: 0.48319328, y: 0.39325842}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0216b5f3082b0b530800000000000000
+      internalID: 3868788343799767328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0018
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 918
+        width: 243
+        height: 180
+      alignment: 9
+      pivot: {x: 0.47325101, y: 0.3888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a4072294e31d4660800000000000000
+      internalID: 7371570037500871842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0019
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1128
+        width: 245
+        height: 187
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.36898395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fae039512f26b350800000000000000
+      internalID: 6032060571186162424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0020
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 930
+        width: 243
+        height: 196
+      alignment: 9
+      pivot: {x: 0.48971194, y: 0.34183672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12461157e62c5e40800000000000000
+      internalID: 5646430807755473436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0021
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 240
+        height: 188
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.35638297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c2ce75bf69f665f0800000000000000
+      internalID: -763648828611050813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0022
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1216
+        width: 246
+        height: 189
+      alignment: 9
+      pivot: {x: 0.4715447, y: 0.35978836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93a9774e1311e2d0800000000000000
+      internalID: -3251296435215686758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0023
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1023
+        width: 243
+        height: 191
+      alignment: 9
+      pivot: {x: 0.47736627, y: 0.36649215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38c18806b01bffa90800000000000000
+      internalID: -7277903810385142653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0024
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1023
+        width: 243
+        height: 191
+      alignment: 9
+      pivot: {x: 0.47736627, y: 0.36649215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b32264b97903b90800000000000000
+      internalID: -7264139505796236439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0025
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1023
+        width: 243
+        height: 191
+      alignment: 9
+      pivot: {x: 0.47736627, y: 0.36649215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3eb066e776aa8470800000000000000
+      internalID: 8397707489082129980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0026
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 1023
+        width: 243
+        height: 191
+      alignment: 9
+      pivot: {x: 0.47736627, y: 0.36649215}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86782c4739875a830800000000000000
+      internalID: 4081801211995653992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0027
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 1216
+        width: 246
+        height: 189
+      alignment: 9
+      pivot: {x: 0.4715447, y: 0.35978836}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19bf86ac629925bf0800000000000000
+      internalID: -337038630215681135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0028
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 577
+        width: 240
+        height: 188
+      alignment: 9
+      pivot: {x: 0.48333332, y: 0.35638297}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65530ff71b6dcefe0800000000000000
+      internalID: -1158314946297055914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0029
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 767
+        width: 243
+        height: 196
+      alignment: 9
+      pivot: {x: 0.48971194, y: 0.34183672}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e8cf779220b7aca0800000000000000
+      internalID: -6005637915458156311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0030
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1128
+        width: 245
+        height: 187
+      alignment: 9
+      pivot: {x: 0.4857143, y: 0.36898395}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abd47200767287b0800000000000000
+      internalID: -5223482394346726493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0031
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 918
+        width: 243
+        height: 180
+      alignment: 9
+      pivot: {x: 0.47325101, y: 0.3888889}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a8081c8afc4a840800000000000000
+      internalID: 5234536990619241009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0032
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 871
+        width: 240
+        height: 150
+      alignment: 9
+      pivot: {x: 0.47083333, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8023b42640e130f0800000000000000
+      internalID: -1138882638879973236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0033
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 460
+        width: 233
+        height: 145
+      alignment: 9
+      pivot: {x: 0.46781117, y: 0.47586206}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f78e1235fa113f070800000000000000
+      internalID: 8138868396300298367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0034
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9628518779ff09730800000000000000
+      internalID: 4003981094752191081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab03108e71df9130800000000000000
+      internalID: 3575806970400279468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0036
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f31763eac485810800000000000000
+      internalID: 1754236365982220090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0037
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be33589a8179ac70800000000000000
+      internalID: 8982835771842182840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0038
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0185b55c32beb960800000000000000
+      internalID: 7619723591763198219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0039
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 739
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6708dc2d67af9c0e0800000000000000
+      internalID: -2248991150645084042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0040
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 607
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc30bfc3bfe46dfb0800000000000000
+      internalID: -4623421126482394164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0041
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 607
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61235ac8bdb0f5070800000000000000
+      internalID: 8097203692620821014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0042
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 739
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf3bd4c32d2e0560800000000000000
+      internalID: 7281807279154479030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0043
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6100571037f5ea1c0800000000000000
+      internalID: -4490546830891483114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0044
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af41b33c9d6ec9e0800000000000000
+      internalID: -1599220300020363359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0045
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1b10062168c0970800000000000000
+      internalID: 8722493991788065210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0046
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a5aa254e2a6b7c0800000000000000
+      internalID: -4055875312877413753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db52431f8f4caa00800000000000000
+      internalID: 769077112295545813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0048
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c95d86dde99db80800000000000000
+      internalID: -8369483758707565428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0049
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 585
+        width: 233
+        height: 151
+      alignment: 9
+      pivot: {x: 0.46781117, y: 0.45695364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0a3460f8630c1e50800000000000000
+      internalID: 6781298888157706767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0050
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 965
+        width: 245
+        height: 177
+      alignment: 9
+      pivot: {x: 0.4979592, y: 0.3898305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1215aea1b5f176980800000000000000
+      internalID: -8545827291758178015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0051
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1237
+        width: 250
+        height: 168
+      alignment: 9
+      pivot: {x: 0.508, y: 0.42261904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9508af5ffbcf25350800000000000000
+      internalID: 6004139154634080345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0052
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1317
+        width: 253
+        height: 179
+      alignment: 9
+      pivot: {x: 0.5019763, y: 0.39664805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a07936ca0f7ee40800000000000000
+      internalID: 5685777677774424653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0053
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1407
+        width: 263
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5095057, y: 0.45806453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0b2874b7de4f250800000000000000
+      internalID: 5977663719163998427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0054
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 1407
+        width: 263
+        height: 155
+      alignment: 9
+      pivot: {x: 0.5095057, y: 0.45806453}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ce3c3b6aa85fee0800000000000000
+      internalID: -1227922874803426179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0055
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 1317
+        width: 253
+        height: 179
+      alignment: 9
+      pivot: {x: 0.5019763, y: 0.39664805}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e07e8e4a4e0bd4b0800000000000000
+      internalID: -5414718414674562848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0056
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1237
+        width: 250
+        height: 168
+      alignment: 9
+      pivot: {x: 0.508, y: 0.42261904}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cca0cbfbd7b68bc90800000000000000
+      internalID: -7153849820246177076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0057
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 965
+        width: 245
+        height: 177
+      alignment: 9
+      pivot: {x: 0.4979592, y: 0.3898305}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb717b527aa5b1900800000000000000
+      internalID: 656217844651333566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0058
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 585
+        width: 233
+        height: 151
+      alignment: 9
+      pivot: {x: 0.46781117, y: 0.45695364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073a21779bb6f1f20800000000000000
+      internalID: 3395551088371475312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0059
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e793390b8a07cc010800000000000000
+      internalID: 1210466269675075966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0060
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c20c9665eadf3f00800000000000000
+      internalID: 1098837512905556672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0061
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21477ee0086f58a40800000000000000
+      internalID: 5369969160575480850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0062
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 839727c962c219b30800000000000000
+      internalID: 4292260464205920568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0063
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1785
+        width: 276
+        height: 137
+      alignment: 9
+      pivot: {x: 0.39492753, y: 0.55474454}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e801d1501f9a8260800000000000000
+      internalID: 7100662654943955173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0064
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1792
+        width: 275
+        height: 128
+      alignment: 9
+      pivot: {x: 0.39636365, y: 0.5546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15854dfc8892a6c20800000000000000
+      internalID: 3200416152779249745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0065
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1792
+        width: 275
+        height: 128
+      alignment: 9
+      pivot: {x: 0.39636365, y: 0.5546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf5b063c02169a890800000000000000
+      internalID: -7446313715535661573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0066
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1792
+        width: 275
+        height: 128
+      alignment: 9
+      pivot: {x: 0.39636365, y: 0.5546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f224af71889023380800000000000000
+      internalID: -8993115025782980049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0067
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1792
+        width: 275
+        height: 128
+      alignment: 9
+      pivot: {x: 0.39636365, y: 0.5546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0f954109f644c00800000000000000
+      internalID: 883954091478872294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0068
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1498
+        width: 265
+        height: 142
+      alignment: 9
+      pivot: {x: 0.43773586, y: 0.58450705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffa3f5a71398fa060800000000000000
+      internalID: 6966937994164910847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0069
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1498
+        width: 265
+        height: 142
+      alignment: 9
+      pivot: {x: 0.43773586, y: 0.58450705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466627329afbd7760800000000000000
+      internalID: 7457327291160487524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0070
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1642
+        width: 270
+        height: 141
+      alignment: 9
+      pivot: {x: 0.4037037, y: 0.59574467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab39ff86372db5850800000000000000
+      internalID: 6366913891342980026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0071
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1498
+        width: 265
+        height: 142
+      alignment: 9
+      pivot: {x: 0.43773586, y: 0.58450705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2499a03581e38d280800000000000000
+      internalID: -9018389979616077502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0072
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1642
+        width: 270
+        height: 141
+      alignment: 9
+      pivot: {x: 0.4037037, y: 0.59574467}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3116c15859d8457b0800000000000000
+      internalID: -5236404793402171117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0073
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 1564
+        width: 269
+        height: 139
+      alignment: 9
+      pivot: {x: 0.401487, y: 0.58992803}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58794bd5dc57ba830800000000000000
+      internalID: 4083487012042348421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0074
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 1498
+        width: 265
+        height: 142
+      alignment: 9
+      pivot: {x: 0.43773586, y: 0.58450705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5328a9b4e85932150800000000000000
+      internalID: 5846681179643347509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0075
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1792
+        width: 275
+        height: 128
+      alignment: 9
+      pivot: {x: 0.39636365, y: 0.5546875}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0d6f898e921f810800000000000000
+      internalID: 1797263805273002146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0076
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9bc039b01162db0800000000000000
+      internalID: -4817144010016769598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0077
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2258fb8d93964f0800000000000000
+      internalID: -835072652811623728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0078
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe06d7be03e53eb50800000000000000
+      internalID: 6621239441367064815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0079
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddb0cd0ee6776d3f0800000000000000
+      internalID: -876381759374357539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0080
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddeb824c76bc3e5d0800000000000000
+      internalID: -3034358077384507683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0081
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1787f9ad0234833b0800000000000000
+      internalID: -5532598333838755727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0082
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680d3050fe704ce90800000000000000
+      internalID: -7006466397118934906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0083
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0b3a5e5f92de260800000000000000
+      internalID: 7128399921293799615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0084
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 445
+        width: 234
+        height: 130
+      alignment: 9
+      pivot: {x: 0.46581197, y: 0.5307692}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55351eef37b8f2470800000000000000
+      internalID: 8372063562618721109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0085
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 765
+        width: 242
+        height: 163
+      alignment: 9
+      pivot: {x: 0.4752066, y: 0.43558282}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3c28564491d4d5a0800000000000000
+      internalID: -6497337927623234500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0086
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1144
+        width: 252
+        height: 186
+      alignment: 9
+      pivot: {x: 0.4563492, y: 0.3655914}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c17e9228cf54b3b70800000000000000
+      internalID: 8879768041108924188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0087
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 535
+        width: 237
+        height: 228
+      alignment: 9
+      pivot: {x: 0.43459916, y: 0.29385966}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef21bd21162823100800000000000000
+      internalID: 86274696313246462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanIdle0088
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 1705
+        width: 272
+        height: 212
+      alignment: 9
+      pivot: {x: 0.50735295, y: 0.3018868}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6037ca3aad9ceb60800000000000000
+      internalID: 7776764011018137711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

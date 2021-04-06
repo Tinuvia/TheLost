@@ -1,0 +1,1224 @@
+fileFormatVersion: 2
+guid: 6ff316a396edb324ea0ecb2498ab1186
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2804965243913799437
+    second: GunmanReload0001
+  - first:
+      213: 3320254082425236478
+    second: GunmanReload0002
+  - first:
+      213: -6258866369130693092
+    second: GunmanReload0003
+  - first:
+      213: 2507698461396654254
+    second: GunmanReload0004
+  - first:
+      213: -257923770949646614
+    second: GunmanReload0005
+  - first:
+      213: 1664413949890792003
+    second: GunmanReload0006
+  - first:
+      213: 8293785722387378564
+    second: GunmanReload0007
+  - first:
+      213: -3495170798872225282
+    second: GunmanReload0008
+  - first:
+      213: 6080022474119247577
+    second: GunmanReload0009
+  - first:
+      213: -1804284951736121078
+    second: GunmanReload0010
+  - first:
+      213: 5734876011859530264
+    second: GunmanReload0011
+  - first:
+      213: 5701829535983581493
+    second: GunmanReload0012
+  - first:
+      213: -7025312006222598030
+    second: GunmanReload0013
+  - first:
+      213: -3830448273554019496
+    second: GunmanReload0014
+  - first:
+      213: 4192693770394425770
+    second: GunmanReload0015
+  - first:
+      213: -7428777384579789333
+    second: GunmanReload0016
+  - first:
+      213: 724672692781999406
+    second: GunmanReload0017
+  - first:
+      213: -8142498509794221723
+    second: GunmanReload0018
+  - first:
+      213: 7026444851237019045
+    second: GunmanReload0019
+  - first:
+      213: 2701375006073417469
+    second: GunmanReload0020
+  - first:
+      213: 1476909444807915453
+    second: GunmanReload0021
+  - first:
+      213: 1653043188939352401
+    second: GunmanReload0022
+  - first:
+      213: 1331349841111674279
+    second: GunmanReload0023
+  - first:
+      213: -5098144525309712911
+    second: GunmanReload0024
+  - first:
+      213: 5394232567702768770
+    second: GunmanReload0025
+  - first:
+      213: 3673484715909672454
+    second: GunmanReload0026
+  - first:
+      213: 6218323526325828156
+    second: GunmanReload0027
+  - first:
+      213: -587457373790795611
+    second: GunmanReload0028
+  - first:
+      213: 9149853559852843548
+    second: GunmanReload0029
+  - first:
+      213: 3916712030995799380
+    second: GunmanReload0030
+  - first:
+      213: -1434234020450084705
+    second: GunmanReload0031
+  - first:
+      213: -5659770760672012239
+    second: GunmanReload0032
+  - first:
+      213: -629075241247829673
+    second: GunmanReload0033
+  - first:
+      213: -6229348326569022502
+    second: GunmanReload0034
+  - first:
+      213: -5739510273523218482
+    second: GunmanReload0035
+  - first:
+      213: -8488162753358444281
+    second: GunmanReload0036
+  - first:
+      213: -3890480652050087387
+    second: GunmanReload0037
+  - first:
+      213: 3552159446870081501
+    second: GunmanReload0038
+  - first:
+      213: 8415020777464269526
+    second: GunmanReload0039
+  - first:
+      213: -3259625706513728165
+    second: GunmanReload0040
+  - first:
+      213: 8183681790196885148
+    second: GunmanReload0041
+  - first:
+      213: -8293632931730628321
+    second: GunmanReload0042
+  - first:
+      213: 321902318062601695
+    second: GunmanReload0043
+  - first:
+      213: -6142777932499177746
+    second: GunmanReload0044
+  - first:
+      213: 1462180913856530766
+    second: GunmanReload0045
+  - first:
+      213: 7885626464339153502
+    second: GunmanReload0046
+  - first:
+      213: -3200902734404409608
+    second: GunmanReload0047
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GunmanReload0001
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 139
+        width: 334
+        height: 501
+      alignment: 9
+      pivot: {x: 0.50748503, y: 0.48403195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d078cca270d3de620800000000000000
+      internalID: 2804965243913799437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0002
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 158
+        width: 336
+        height: 490
+      alignment: 9
+      pivot: {x: 0.5014881, y: 0.49693877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb2ffa1f79e31e20800000000000000
+      internalID: 3320254082425236478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0003
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 1129
+        width: 341
+        height: 498
+      alignment: 9
+      pivot: {x: 0.47360703, y: 0.48895583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e735bb23a0429a0800000000000000
+      internalID: -6258866369130693092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0004
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 169
+        width: 337
+        height: 491
+      alignment: 9
+      pivot: {x: 0.46439168, y: 0.4898167}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8575bd6722dc220800000000000000
+      internalID: 2507698461396654254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0005
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 635
+        width: 340
+        height: 492
+      alignment: 9
+      pivot: {x: 0.46911764, y: 0.49085367}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6ca6562bbab6cf0800000000000000
+      internalID: -257923770949646614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0006
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 1629
+        width: 353
+        height: 493
+      alignment: 9
+      pivot: {x: 0.49433428, y: 0.4939148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a02724baf291710800000000000000
+      internalID: 1664413949890792003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0007
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 2124
+        width: 355
+        height: 494
+      alignment: 9
+      pivot: {x: 0.49718308, y: 0.49291497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4813b121c22791370800000000000000
+      internalID: 8293785722387378564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0008
+      rect:
+        serializedVersion: 2
+        x: 1464
+        y: 2124
+        width: 355
+        height: 494
+      alignment: 9
+      pivot: {x: 0.49718308, y: 0.49291497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef917e73da8ae7fc0800000000000000
+      internalID: -3495170798872225282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0009
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 2620
+        width: 382
+        height: 493
+      alignment: 9
+      pivot: {x: 0.5301047, y: 0.4939148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6f4441a34906450800000000000000
+      internalID: 6080022474119247577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0010
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2629
+        width: 410
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5621951, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a098f2a5564e5f6e0800000000000000
+      internalID: -1804284951736121078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0011
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 3606
+        width: 431
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5835267, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812dbcd195f569f40800000000000000
+      internalID: 5734876011859530264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0012
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 3606
+        width: 431
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5835267, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 539b12ed0c7f02f40800000000000000
+      internalID: 5701829535983581493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0013
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 3120
+        width: 429
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5815851, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270b0d8b3f3118e90800000000000000
+      internalID: -7025312006222598030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0014
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 3120
+        width: 429
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5815851, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85bed4cf69387dac0800000000000000
+      internalID: -3830448273554019496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0015
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 3120
+        width: 429
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5815851, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa95a5435c07f2a30800000000000000
+      internalID: 4192693770394425770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0016
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3611
+        width: 435
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5873563, y: 0.4927686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed8aacf35ea7e890800000000000000
+      internalID: -7428777384579789333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0017
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 3611
+        width: 435
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5873563, y: 0.4927686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2562bf79fd8e0a00800000000000000
+      internalID: 724672692781999406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0018
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3611
+        width: 437
+        height: 484
+      alignment: 9
+      pivot: {x: 0.58924484, y: 0.4927686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56161930fb8000f80800000000000000
+      internalID: -8142498509794221723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0019
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3611
+        width: 437
+        height: 484
+      alignment: 9
+      pivot: {x: 0.58924484, y: 0.4927686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5addadf4d52f28160800000000000000
+      internalID: 7026444851237019045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0020
+      rect:
+        serializedVersion: 2
+        x: 877
+        y: 3611
+        width: 435
+        height: 484
+      alignment: 9
+      pivot: {x: 0.5873563, y: 0.4927686}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfeef1a61463d7520800000000000000
+      internalID: 2701375006073417469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0021
+      rect:
+        serializedVersion: 2
+        x: 1296
+        y: 3115
+        width: 429
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5815851, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db7f137a0590f7410800000000000000
+      internalID: 1476909444807915453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0022
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2629
+        width: 429
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5815851, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 159eb1ba50ac0f610800000000000000
+      internalID: 1653043188939352401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0023
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3120
+        width: 431
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5835267, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7adeb3f60a7e97210800000000000000
+      internalID: 1331349841111674279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0024
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2629
+        width: 410
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5621951, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f5ef4bb090cf39b0800000000000000
+      internalID: -5098144525309712911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0025
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 2629
+        width: 410
+        height: 489
+      alignment: 9
+      pivot: {x: 0.5621951, y: 0.49795502}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28c44c1c0f92cda40800000000000000
+      internalID: 5394232567702768770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0026
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 2620
+        width: 382
+        height: 493
+      alignment: 9
+      pivot: {x: 0.5301047, y: 0.4939148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e6f9bd2e6daf230800000000000000
+      internalID: 3673484715909672454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0027
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1645
+        width: 355
+        height: 494
+      alignment: 9
+      pivot: {x: 0.49718308, y: 0.49291497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3afa151d4ceb4650800000000000000
+      internalID: 6218323526325828156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0028
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1645
+        width: 355
+        height: 494
+      alignment: 9
+      pivot: {x: 0.49718308, y: 0.49291497}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8048a81aee8d7f0800000000000000
+      internalID: -587457373790795611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0029
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1158
+        width: 353
+        height: 493
+      alignment: 9
+      pivot: {x: 0.49433428, y: 0.4939148}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c124fdda55fcafe70800000000000000
+      internalID: 9149853559852843548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0030
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 650
+        width: 340
+        height: 493
+      alignment: 9
+      pivot: {x: 0.46911764, y: 0.489858}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45dd00f27d4fa5630800000000000000
+      internalID: 3916712030995799380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0031
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 642
+        width: 341
+        height: 498
+      alignment: 9
+      pivot: {x: 0.47360703, y: 0.48895583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f98da4ed1c3981ce0800000000000000
+      internalID: -1434234020450084705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0032
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 1145
+        width: 341
+        height: 498
+      alignment: 9
+      pivot: {x: 0.47067448, y: 0.48895583}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138900cda747471b0800000000000000
+      internalID: -5659770760672012239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0033
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 662
+        width: 341
+        height: 494
+      alignment: 9
+      pivot: {x: 0.46774194, y: 0.49089068}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7511e6ca6631547f0800000000000000
+      internalID: -629075241247829673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0034
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 143
+        width: 336
+        height: 490
+      alignment: 9
+      pivot: {x: 0.5014881, y: 0.49693877}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adbeda493b8ec89a0800000000000000
+      internalID: -6229348326569022502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0035
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 655
+        width: 334
+        height: 501
+      alignment: 9
+      pivot: {x: 0.50748503, y: 0.48403195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec781f1c0d92950b0800000000000000
+      internalID: -5739510273523218482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0036
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1633
+        width: 352
+        height: 489
+      alignment: 9
+      pivot: {x: 0.4815341, y: 0.502045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7094e52b2fcf33a80800000000000000
+      internalID: -8488162753358444281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0037
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1633
+        width: 352
+        height: 489
+      alignment: 9
+      pivot: {x: 0.4815341, y: 0.502045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5224609a57c320ac0800000000000000
+      internalID: -3890480652050087387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0038
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2141
+        width: 358
+        height: 486
+      alignment: 9
+      pivot: {x: 0.47346368, y: 0.4989712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf3d30623ecb4130800000000000000
+      internalID: 3552159446870081501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0039
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 2141
+        width: 358
+        height: 486
+      alignment: 9
+      pivot: {x: 0.47346368, y: 0.4989712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da0a4affc828c470800000000000000
+      internalID: 8415020777464269526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0040
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2141
+        width: 371
+        height: 486
+      alignment: 9
+      pivot: {x: 0.45687333, y: 0.4989712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d748ea0bb73c2d0800000000000000
+      internalID: -3259625706513728165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0041
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 2141
+        width: 371
+        height: 486
+      alignment: 9
+      pivot: {x: 0.45687333, y: 0.4989712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96a48baa37429170800000000000000
+      internalID: 8183681790196885148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0042
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1653
+        width: 355
+        height: 486
+      alignment: 9
+      pivot: {x: 0.4774648, y: 0.4989712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11e6b64ac817ec80800000000000000
+      internalID: -8293632931730628321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0043
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1653
+        width: 355
+        height: 486
+      alignment: 9
+      pivot: {x: 0.4774648, y: 0.4989712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd50f78e370a77400800000000000000
+      internalID: 321902318062601695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0044
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 1653
+        width: 355
+        height: 486
+      alignment: 9
+      pivot: {x: 0.4774648, y: 0.4989712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee2747240870caa0800000000000000
+      internalID: -6142777932499177746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0045
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 2141
+        width: 371
+        height: 486
+      alignment: 9
+      pivot: {x: 0.45687333, y: 0.4989712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4946cf4bc5ba4410800000000000000
+      internalID: 1462180913856530766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0046
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 1142
+        width: 352
+        height: 489
+      alignment: 9
+      pivot: {x: 0.4815341, y: 0.502045}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e52da5e4d7f5f6d60800000000000000
+      internalID: 7885626464339153502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GunmanReload0047
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 655
+        width: 334
+        height: 501
+      alignment: 9
+      pivot: {x: 0.50748503, y: 0.48403195}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f6af331ceb1493d0800000000000000
+      internalID: -3200902734404409608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
