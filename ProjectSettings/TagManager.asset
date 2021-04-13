@@ -46,3 +46,18 @@ TagManager:
   - name: HealthUI
     uniqueID: 4075615187
     locked: 0
+  - name: TileBase
+    uniqueID: 3085057195
+    locked: 0
+  - name: TileBorders
+    uniqueID: 552043851
+    locked: 0
+  - name: TileLows
+    uniqueID: 4209354353
+    locked: 0
+  - name: NPCsInteractables
+    uniqueID: 1976716165
+    locked: 0
+  - name: TileHighs
+    uniqueID: 912373651
+    locked: 0
