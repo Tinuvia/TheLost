@@ -10,13 +10,13 @@ public class Enemy : MonoBehaviour
     [Header("Attack")]
     
     [SerializeField] private float attackDamage = 10f;
-    [SerializeField] private float attackSpeed = 0.5f;
+    [SerializeField] private float attackSpeed = 1f;
     private float canAttack;
 
     [Header("Health")]
     private float health;
     [SerializeField] private float maxHealth;
-    [SerializeField] private float delayDestroy = 2f;
+    [SerializeField] private float delayDestroy = 4f;
 
 
     public Animator animator;
@@ -52,9 +52,10 @@ public class Enemy : MonoBehaviour
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
-        if (collision.gameObject.tag == "Player") {
+        if (collision.gameObject.tag == "Player" && health > 0) {
             FollowPlayer(collision, true);
-        }
+        } else
+            FollowPlayer(collision, false);
     }
 
     private void OnTriggerExit2D(Collider2D collision) {
@@ -76,6 +77,7 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0f) {
             animator.SetBool("IsDead", true);
+            animator.SetBool("IsMoving", false);
             Debug.Log("Enemy dead");
             target = null;
 
@@ -85,10 +87,12 @@ public class Enemy : MonoBehaviour
     }
 
     private void AttackPlayer(Collision2D collision) {
+        Debug.Log("Attack on player started");
         if (collision.gameObject.tag == "Player") {
             if (attackSpeed <= canAttack) {
                 collision.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
+                Debug.Log("Player attacked");
             } else {
                 canAttack += Time.deltaTime;
             }
