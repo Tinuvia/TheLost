@@ -9,6 +9,7 @@ public class Projectile : MonoBehaviour
     // MW
 
     private void OnCollisionEnter2D(Collision2D collision) {
+        Debug.Log("We hit something");
         if (collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(attackDamage);

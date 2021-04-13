@@ -27,14 +27,18 @@ public class PlayerAttack : MonoBehaviour
     }
 
     public void Fire() {
-        if (ammo > 0) {
+        if (ammo > 0) {     
             GameObject pooledProjectile = ObjectPooler.SharedInstance.GetPooledObject();
             if (pooledProjectile != null)
             {
                 pooledProjectile.SetActive(true);
                 pooledProjectile.transform.position = firePoint.position;
+                pooledProjectile.transform.rotation = firePoint.rotation;
             }
+         
+            // GameObject pooledProjectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
             pooledProjectile.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
+
             UpdateAmmo(-1);
             StartCoroutine("SetFalse", pooledProjectile);
             animator.SetBool("IsFiring", true);

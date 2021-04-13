@@ -67,7 +67,7 @@ public class Enemy : MonoBehaviour
         health -= dmg;
         Debug.Log("Enemy health: " + health);
 
-        if (target == null)
+        if ((target == null) && health > 0f)
         {
             target = player.transform;
             animator.SetBool("IsMoving", true);
