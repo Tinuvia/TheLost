@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1849621745}
   - component: {fileID: 1195910454}
   - component: {fileID: 1195910455}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Enemy01
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -101,7 +101,10 @@ MonoBehaviour:
   attackDamage: 10
   attackSpeed: 1
   maxHealth: 30
+  delayDestroy: 4
   animator: {fileID: 0}
+  target: {fileID: 0}
+  player: {fileID: 0}
 --- !u!60 &1195910454
 PolygonCollider2D:
   m_ObjectHideFlags: 0

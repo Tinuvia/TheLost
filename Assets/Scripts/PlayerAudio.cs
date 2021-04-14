@@ -14,33 +14,27 @@ public class PlayerAudio : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log("Player entered trigger");
         /*
         if (collision.CompareTag("Water"))
         {
             audioS.PlayOneShot(splashSound);
         }
         */
-        if (collision.CompareTag("EnemyZone"))
-        {
+        if (collision.CompareTag("Enemy")) {
             auxInSnapshot.TransitionTo(enterTransitionTime);
-            Debug.Log("Player entered enemy zone");
         }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        Debug.Log("Player exited trigger");
         /*
         if (collision.CompareTag("Water"))
         {
             audioS.PlayOneShot(splashSound);
         }
         */
-        if (collision.CompareTag("EnemyZone"))
-        {
+        if (collision.CompareTag("Enemy")) {
             idleSnapshot.TransitionTo(exitTransitionTime);
-            Debug.Log("Player left enemy zone");
         }
     }
 }
