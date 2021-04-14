@@ -66,7 +66,6 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float dmg) {
         health -= dmg;
-        Debug.Log("Enemy health: " + health);
 
         if ((target == null) && health > 0f)
         {
@@ -78,7 +77,6 @@ public class Enemy : MonoBehaviour
         if (health <= 0f) {
             animator.SetBool("IsDead", true);
             animator.SetBool("IsMoving", false);
-            Debug.Log("Enemy dead");
             target = null;
 
             // Instead, replace with lootable object that is deactivated/destroyed after some time
@@ -87,12 +85,10 @@ public class Enemy : MonoBehaviour
     }
 
     private void AttackPlayer(Collision2D collision) {
-        Debug.Log("Attack on player started");
         if (collision.gameObject.tag == "Player") {
             if (attackSpeed <= canAttack) {
                 collision.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
                 canAttack = 0f;
-                Debug.Log("Player attacked");
             } else {
                 canAttack += Time.deltaTime;
             }
