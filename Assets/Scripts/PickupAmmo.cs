@@ -6,6 +6,7 @@ public class PickupAmmo : MonoBehaviour
 {
     [SerializeField] private int ammoCount;
     private PlayerAttack playerAttackScript;
+    public AudioClip reloadSound;
 
     void Start()
     {
@@ -17,6 +18,7 @@ public class PickupAmmo : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            AudioSource.PlayClipAtPoint(reloadSound, transform.position);
             playerAttackScript.UpdateAmmo(ammoCount);
             // When OBJECT POOLING - setactive(false)
             Destroy(gameObject);

@@ -3426,7 +3426,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 7693665829451394314, guid: a04125019e7993e478a6179d77ae97fe, type: 3}
   firePoint: {fileID: 1080921293}
   fireForce: 20
-  ammo: 10
+  ammo: 20
   animator: {fileID: 1794477663}
   ammoText: {fileID: 1086529841}
 --- !u!58 &1794477662

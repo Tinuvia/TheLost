@@ -97,6 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoCount: 10
+  reloadSound: {fileID: 8300000, guid: 2d662ef6dfcd7034082c749cbcdd1a4d, type: 3}
 --- !u!61 &6053433709099265246
 BoxCollider2D:
   m_ObjectHideFlags: 0
