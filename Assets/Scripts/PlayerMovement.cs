@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 mousePosition;
     public Camera sceneCamera;
     public Animator animator;
+    public PlayerAudio playerAudio;
 
     void Update() {
         ProcessInputs();
@@ -32,6 +33,9 @@ public class PlayerMovement : MonoBehaviour
     void Move() {
         rb.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
         animator.SetFloat("Speed", rb.velocity.magnitude);
+
+        // Need to figure out raycast in 2D in playerAudio
+        // playerAudio.FootSteps();
 
         // rotate player along move direction
         if (rb.velocity.magnitude > 0f)

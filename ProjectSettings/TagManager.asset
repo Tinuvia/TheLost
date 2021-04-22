@@ -8,6 +8,9 @@ TagManager:
   - Enemy
   - EnemyZone
   - Ambience
+  - ForestFloor
+  - HardFloor
+  - MudFloor
   layers:
   - Default
   - TransparentFX

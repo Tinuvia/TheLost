@@ -1450,7 +1450,7 @@ GameObject:
   - component: {fileID: 776236047}
   m_Layer: 0
   m_Name: Tilemap_Base
-  m_TagString: Untagged
+  m_TagString: ForestFloor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3324,6 +3324,7 @@ MonoBehaviour:
   rb: {fileID: 1794477658}
   sceneCamera: {fileID: 519420031}
   animator: {fileID: 1794477663}
+  playerAudio: {fileID: 1794477665}
 --- !u!50 &1794477658
 Rigidbody2D:
   serializedVersion: 4
@@ -3497,6 +3498,18 @@ MonoBehaviour:
   ambInSnapshot: {fileID: 2730322328648135437, guid: fe1974c90a4fa05449ce34da2c4e8252, type: 2}
   exitTransitionTime: 4
   enterTransitionTime: 1
+  forestSteps:
+  - {fileID: 8300000, guid: 711daa753a463414c8f447a2df89325d, type: 3}
+  - {fileID: 8300000, guid: 4a3eb5ca04bb482439cdb584a6a7428e, type: 3}
+  - {fileID: 8300000, guid: 711daa753a463414c8f447a2df89325d, type: 3}
+  hardSteps:
+  - {fileID: 8300000, guid: 8cc0e99e11ce64e439aea558af174a16, type: 3}
+  - {fileID: 8300000, guid: 8cc0e99e11ce64e439aea558af174a16, type: 3}
+  - {fileID: 8300000, guid: 8cc0e99e11ce64e439aea558af174a16, type: 3}
+  mudSteps:
+  - {fileID: 8300000, guid: 8cc0e99e11ce64e439aea558af174a16, type: 3}
+  - {fileID: 8300000, guid: 8cc0e99e11ce64e439aea558af174a16, type: 3}
+  - {fileID: 8300000, guid: 8cc0e99e11ce64e439aea558af174a16, type: 3}
 --- !u!82 &1794477666
 AudioSource:
   m_ObjectHideFlags: 0
