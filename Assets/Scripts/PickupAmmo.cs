@@ -7,9 +7,11 @@ public class PickupAmmo : MonoBehaviour
     [SerializeField] private int ammoCount;
     private PlayerAttack playerAttackScript;
     public AudioClip reloadSound;
+    private Animator _anim;
 
     void Start()
     {
+        _anim = GameObject.Find("Player").GetComponent<Animator>();
         playerAttackScript = GameObject.Find("Player").GetComponent<PlayerAttack>();
     }
 
@@ -20,6 +22,7 @@ public class PickupAmmo : MonoBehaviour
         {
             AudioSource.PlayClipAtPoint(reloadSound, transform.position);
             playerAttackScript.UpdateAmmo(ammoCount);
+            _anim.SetTrigger("Reload");
             // When OBJECT POOLING - setactive(false)
             Destroy(gameObject);
         }
