@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8977106705765087605}
   - component: {fileID: 8977106705765087604}
   - component: {fileID: 5539529800845571518}
+  - component: {fileID: 6828003021744895573}
   m_Layer: 0
   m_Name: MedPack
   m_TagString: Untagged
@@ -70,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1976716165
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: -3351081244269871772, guid: f233adcaecd725842ae733f66b7acd6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -113,3 +114,29 @@ CapsuleCollider2D:
   m_Offset: {x: -0.38865483, y: 1.1213126}
   m_Size: {x: 3.442701, y: 2.5106642}
   m_Direction: 1
+--- !u!114 &6828003021744895573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8977106705765087603}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 00000000d3f3ecf2ab3ce2b74b85e72071a6e5fa854bd27593b76136
+  m_ShapePath:
+  - {x: -1.1481614, y: -0.87089586, z: 0}
+  - {x: 0.1549477, y: -0.87089586, z: 0}
+  - {x: 0.1549477, y: 0.7851567, z: 0}
+  - {x: -1.1481614, y: 0.7851567, z: 0}
+  m_ShapePathHash: 0
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -9864
