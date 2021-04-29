@@ -27,8 +27,19 @@ public class Projectile : MonoBehaviour
         }
         if(gameObject.activeSelf)
         {
-            gameObject.SetActive(false);
+            StartCoroutine("SetFalse", gameObject);
             Debug.Log("Projectile disabled from collision");
+        }
+    }
+
+    IEnumerator SetFalse(GameObject objectToDisable)
+    {
+
+        yield return new WaitForSeconds(3.0f); // disable projectile after 1.0f secs
+        if (objectToDisable.activeSelf)
+        {
+            objectToDisable.SetActive(false);
+            Debug.Log("Projectile disabled from time");
         }
     }
 }
