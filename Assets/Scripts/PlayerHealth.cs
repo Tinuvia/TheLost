@@ -6,6 +6,8 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     private float health = 0f;
+    public Animator animator;
+
     // After Command Pattern, set maxHealth to private
     [SerializeField] public float maxHealth = 100f;
     [SerializeField] private Slider healthSlider;
@@ -17,6 +19,11 @@ public class PlayerHealth : MonoBehaviour
 
     public void UpdateHealth(float mod) {
         health += mod;
+        if(mod < 0)
+        {
+            animator.SetTrigger("Wounded");
+        }
+
 
         if (health > maxHealth) {
             health = maxHealth;

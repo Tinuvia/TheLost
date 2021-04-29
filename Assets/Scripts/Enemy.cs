@@ -66,6 +66,7 @@ public class Enemy : MonoBehaviour
 
     public void TakeDamage(float dmg) {
         health -= dmg;
+        animator.SetTrigger("Wounded");
 
         if ((target == null) && health > 0f)
         {
@@ -88,6 +89,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Player") {
             if (attackSpeed <= canAttack) {
                 collision.gameObject.GetComponent<PlayerHealth>().UpdateHealth(-attackDamage);
+                animator.SetTrigger("Attack");
                 canAttack = 0f;
             } else {
                 canAttack += Time.deltaTime;
