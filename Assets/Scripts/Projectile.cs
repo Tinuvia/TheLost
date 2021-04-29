@@ -9,11 +9,13 @@ public class Projectile : MonoBehaviour
     // MW
 
     private void OnCollisionEnter2D(Collision2D collision) {
+        Debug.Log("Projectile entered collision");
         Attack(collision);
     }
 
     // added 210413 to prevent enemy attacks not counting while near player - but it doesn't work
     private void OnCollisionStay2D(Collision2D collision) {
+        Debug.Log("Projectile inside collision");
         Attack(collision);
     }
 
@@ -23,6 +25,10 @@ public class Projectile : MonoBehaviour
             collision.gameObject.GetComponent<Enemy>().TakeDamage(attackDamage);
             Debug.Log("Attack on enemy");
         }
-        gameObject.SetActive(false);
+        if(gameObject.activeSelf)
+        {
+            gameObject.SetActive(false);
+            Debug.Log("Projectile disabled from collision");
+        }
     }
 }

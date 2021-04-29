@@ -34,6 +34,7 @@ public class PlayerAttack : MonoBehaviour
                 pooledProjectile.SetActive(true);
                 pooledProjectile.transform.position = firePoint.position;
                 pooledProjectile.transform.rotation = firePoint.rotation;
+                Debug.Log("Projectile fired");
             }
          
             // GameObject pooledProjectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
@@ -53,12 +54,16 @@ public class PlayerAttack : MonoBehaviour
     {
         ammo += mod;
         ammoText.text = ammo.ToString();
+        Debug.Log("Ammo count " + ammo);
     }
 
     IEnumerator SetFalse(GameObject objectToDisable) {
 
         yield return new WaitForSeconds(3.0f); // disable projectile after 1.0f secs
-        objectToDisable.SetActive(false);
+        if(objectToDisable.activeSelf)  {
+            objectToDisable.SetActive(false);
+            Debug.Log("Projectile disabled from time");
+        }
     }
 
 }
