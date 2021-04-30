@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 3544071030827743888}
-  maxHealth: 100
+  maxHealth: 20
   healthSlider: {fileID: 0}
 --- !u!95 &3544071030827743888
 Animator:

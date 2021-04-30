@@ -29,9 +29,16 @@ public class PlayerHealth : MonoBehaviour
             health = maxHealth;
         } else if (health <= 0f) {
             health = 0f;
-            Destroy(gameObject);
             healthSlider.value = health;
+            PlayerDied();
         }
+    }
+
+    private void PlayerDied()
+    {
+        Debug.Log("Player died called");
+        LevelManager.instance.GameOver();
+        gameObject.SetActive(false);
     }
 
     private void OnGUI()
