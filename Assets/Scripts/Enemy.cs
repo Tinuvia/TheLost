@@ -87,7 +87,7 @@ public class Enemy : MonoBehaviour
             target = null;
 
             // Instead, replace with lootable object that is deactivated/destroyed after some time
-            StartCoroutine("RemoveEnemyAfterTime", delayDestroy);
+            //StartCoroutine("RemoveEnemyAfterTime", delayDestroy);
         }
     }
 
