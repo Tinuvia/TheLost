@@ -18,14 +18,20 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float maxHealth;
     [SerializeField] private float delayDestroy = 4f;
 
-
-    public Animator animator;
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioS;
+    [SerializeField] private AudioClip detectScream;
+ 
     public Transform target;
-    public GameObject player;
+    public GameObject player; // only works in this scene? if so, instead intitalize in start as usual
 
+    Animator animator;
+    int isMovingHash;
 
     private void Start() {
         health = maxHealth;
+        animator = GetComponent<Animator>();
+        isMovingHash = Animator.StringToHash("isMoving");
     }
 
 
@@ -71,13 +77,13 @@ public class Enemy : MonoBehaviour
         if ((target == null) && health > 0f)
         {
             target = player.transform;
-            animator.SetBool("IsMoving", true);
+            animator.SetBool(isMovingHash, true);
         }
          // to get access to player, better to subscribe to the projectile's OnCollision?
 
         if (health <= 0f) {
-            animator.SetBool("IsDead", true);
-            animator.SetBool("IsMoving", false);
+            animator.SetTrigger("Dying");
+            animator.SetBool(isMovingHash, false);
             target = null;
 
             // Instead, replace with lootable object that is deactivated/destroyed after some time
@@ -101,10 +107,13 @@ public class Enemy : MonoBehaviour
     {
         if (bFollow)  {
             target = collision.transform;
+            audioS.pitch = Random.Range(0.9f, 1.1f);
+            audioS.volume = Random.Range(0.8f, 1f);
+            audioS.PlayOneShot(detectScream);
         } else {
             target = null;
         }        
-        animator.SetBool("IsMoving", bFollow);
+        animator.SetBool(isMovingHash, bFollow);
     }
 
     IEnumerator RemoveEnemyAfterTime(float delay)
