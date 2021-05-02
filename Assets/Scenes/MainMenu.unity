@@ -1379,7 +1379,7 @@ MonoBehaviour:
   palmTrees: {fileID: 209233098}
   titleMenu: {fileID: 2034614337}
   timeDarkBackground: 10
-  timeMenu: 10.5
+  timeMenu: 11
   timeLightBackground: 10
 --- !u!4 &1812098107
 Transform:
