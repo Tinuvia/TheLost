@@ -106,6 +106,7 @@ MonoBehaviour:
   delayDestroy: 3
   audioS: {fileID: 8435853203308396323}
   detectScream: {fileID: 8300000, guid: ea97c0800b1b50b4aa4d49c0f9b3e976, type: 3}
+  reaverWalking: {fileID: 8300000, guid: fce705fee2e8cdb4998f17417bf695a1, type: 3}
   target: {fileID: 0}
   player: {fileID: 0}
 --- !u!60 &1195910454

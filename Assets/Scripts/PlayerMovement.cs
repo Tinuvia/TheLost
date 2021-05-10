@@ -11,8 +11,13 @@ public class PlayerMovement : MonoBehaviour
     private Vector2 moveDirection;
     private Vector2 mousePosition;
     public Camera sceneCamera;
-    public Animator animator;
+    private Animator animator;
     public PlayerAudio playerAudio;
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Update() {
         ProcessInputs();

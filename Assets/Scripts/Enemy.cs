@@ -21,12 +21,15 @@ public class Enemy : MonoBehaviour
     [Header("Audio")]
     [SerializeField] private AudioSource audioS;
     [SerializeField] private AudioClip detectScream;
- 
+    [SerializeField] private AudioClip reaverWalking;
+
     public Transform target;
     public GameObject player; // only works in this scene? if so, instead intitalize in start as usual
 
     Animator animator;
     int isMovingHash;
+    bool isFootstepsPlaying;
+
 
     private void Start() {
         health = maxHealth;
@@ -38,6 +41,11 @@ public class Enemy : MonoBehaviour
     private void FixedUpdate() {
         if (target != null) {
             Move();
+            PlayFootsteps();
+        } else if (isFootstepsPlaying)
+        {
+            audioS.Stop();
+            isFootstepsPlaying = false;
         }
     }
 
@@ -114,6 +122,18 @@ public class Enemy : MonoBehaviour
             target = null;
         }        
         animator.SetBool(isMovingHash, bFollow);
+    }
+
+    private void PlayFootsteps()
+    {
+        if (!isFootstepsPlaying)
+        {
+            audioS.clip = reaverWalking;
+            audioS.pitch = Random.Range(0.9f, 1.1f);
+            audioS.volume = Random.Range(0.8f, 1f);
+            audioS.Play();
+            isFootstepsPlaying = true;
+        }
     }
 
     IEnumerator RemoveEnemyAfterTime(float delay)
