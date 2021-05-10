@@ -9,11 +9,12 @@ public class PlayerAttack : MonoBehaviour
     public Transform firePoint;
     public float fireForce;
     public int ammo;
-    public Animator animator;
     public TextMeshProUGUI ammoText;
+    private Animator animator;
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         ammoText.text = ammo.ToString();
     }
 

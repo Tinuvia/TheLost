@@ -7,15 +7,17 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed;
     public float rotationSpeed; //ship
     public float testFloat;
-    public Rigidbody2D rb;
-    private Vector2 moveDirection;
-    private Vector2 mousePosition;
     public Camera sceneCamera;
-    private Animator animator;
     public PlayerAudio playerAudio;
 
-    private void Start()
-    {
+    private Animator animator;
+    private Rigidbody2D rb;
+    private Vector2 moveDirection;
+    private Vector2 mousePosition;
+
+
+    private void Start() {
+        rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
 

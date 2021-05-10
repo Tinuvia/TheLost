@@ -6,7 +6,6 @@ using UnityEngine.Audio;
 public class PlayerAudio : MonoBehaviour
 {
     // public AudioClip splashSound;
-    public AudioSource audioS;
     public AudioMixerSnapshot idleSnapshot;
     public AudioMixerSnapshot auxInSnapshot;
     public AudioMixerSnapshot ambIdleSnapshot;
@@ -18,12 +17,14 @@ public class PlayerAudio : MonoBehaviour
     //public AudioClip[] hardSteps;
     //public AudioClip[] mudSteps;
 
+    private AudioSource audioS;
     private Rigidbody2D rb;
     private float playerSpeed;
     private bool isFootstepsPlaying = false;
 
     private void Start()
     {
+        audioS = GetComponent<AudioSource>();
         rb = GetComponent<Rigidbody2D>();
     }
 

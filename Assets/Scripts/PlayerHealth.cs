@@ -6,13 +6,14 @@ using UnityEngine.UI;
 public class PlayerHealth : MonoBehaviour
 {
     private float health = 0f;
-    public Animator animator;
+    private Animator animator;
 
     // After Command Pattern, set maxHealth to private
     [SerializeField] public float maxHealth = 100f;
     [SerializeField] private Slider healthSlider;
 
     private void Start() {
+        animator = GetComponent<Animator>();
         health = maxHealth;
         healthSlider.maxValue = maxHealth;
     }
