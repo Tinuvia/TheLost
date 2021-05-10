@@ -11,11 +11,13 @@ public class PlayerAttack : MonoBehaviour
     public int ammo;
     public TextMeshProUGUI ammoText;
     private Animator animator;
+    private int isFiringHash;
 
     void Start()
     {
         animator = GetComponent<Animator>();
         ammoText.text = ammo.ToString();
+        isFiringHash = Animator.StringToHash("IsFiring");
     }
 
     private void Update() {
@@ -43,12 +45,12 @@ public class PlayerAttack : MonoBehaviour
 
             UpdateAmmo(-1);
             StartCoroutine("SetFalse", pooledProjectile);
-            animator.SetBool("IsFiring", true);
+            animator.SetBool(isFiringHash, true);
         }
     }
 
     public void StopFiring() {
-        animator.SetBool("IsFiring", false);
+        animator.SetBool(isFiringHash, false);
     }
 
     public void UpdateAmmo(int mod)

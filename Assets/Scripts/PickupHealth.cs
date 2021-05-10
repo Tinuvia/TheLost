@@ -12,6 +12,7 @@ public class PickupHealth : MonoBehaviour
     void Start()
     {
         playerHealthScript = GameObject.Find("Player").GetComponent<PlayerHealth>();
+        // implement better way to get the playerHealthScript --> commandPattern or scriptable objects?
         healthToGive = playerHealthScript.maxHealth * (healthBonus / 100f);
     }
 
@@ -21,7 +22,7 @@ public class PickupHealth : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             playerHealthScript.UpdateHealth(healthToGive);
-            // When OBJECT POOLING - setactive(false)
+            // When OBJECT POOLING if randomly spawned - setactive(false) 
             Destroy(gameObject);
         }
     }
