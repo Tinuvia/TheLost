@@ -19,4 +19,13 @@ public class FoliageMover : MonoBehaviour
             anim.SetTrigger("move");
         }
     }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            anim.ResetTrigger("move");
+        }
+    }
+
 }
