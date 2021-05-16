@@ -25,11 +25,12 @@ public class Enemy : MonoBehaviour
 
     public Transform target;
     public GameObject player; // only works in this scene? if so, instead intitalize in start as usual
+    [HideInInspector] public bool isDead = false;
 
     Animator animator;
     int isMovingHash;
     bool isFootstepsPlaying;
-
+    
 
     private void Start() {
         health = maxHealth;
@@ -39,10 +40,12 @@ public class Enemy : MonoBehaviour
 
 
     private void FixedUpdate() {
-        if (target != null) {
+        if (target != null)
+        {
             Move();
             PlayFootsteps();
-        } else if (isFootstepsPlaying)
+        }
+        else if (isFootstepsPlaying)
         {
             audioS.Stop();
             isFootstepsPlaying = false;
@@ -57,12 +60,15 @@ public class Enemy : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, angle * Mathf.Rad2Deg - 90f);
     }
 
+
     private void OnCollisionStay2D(Collision2D collision) {
-        AttackPlayer(collision);
+        if (!isDead)
+            AttackPlayer(collision);
     }
 
     private void OnCollisionEnter2D(Collision2D collision) {
-        AttackPlayer(collision);
+        if (!isDead)
+            AttackPlayer(collision);
     }
 
     private void OnTriggerEnter2D(Collider2D collision) {
@@ -93,6 +99,8 @@ public class Enemy : MonoBehaviour
             animator.SetTrigger("Dying");
             animator.SetBool(isMovingHash, false);
             target = null;
+            isDead = true;
+            Debug.Log("Enemy is dead");
 
             // Instead, replace with lootable object that is deactivated/destroyed after some time
             //StartCoroutine("RemoveEnemyAfterTime", delayDestroy);

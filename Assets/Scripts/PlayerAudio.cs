@@ -43,7 +43,9 @@ public class PlayerAudio : MonoBehaviour
         }
         */
         if (collision.CompareTag("Enemy")) {
-            auxInSnapshot.TransitionTo(enterTransitionTime);
+            bool enemyIsDead = collision.GetComponent<Enemy>().isDead;
+            if (!enemyIsDead)
+                auxInSnapshot.TransitionTo(enterTransitionTime);
         }
         if (collision.CompareTag("Ambience"))
         {

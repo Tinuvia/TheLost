@@ -6,16 +6,14 @@ public class Projectile : MonoBehaviour
 {
     [SerializeField] private float attackDamage;
 
-    // MW
-
     private void OnCollisionEnter2D(Collision2D collision) {
-        Debug.Log("Projectile entered collision");
+        // Debug.Log("Projectile entered collision");
         if (collision.gameObject.tag == "Enemy")
         {
             collision.gameObject.GetComponent<Enemy>().TakeDamage(attackDamage);
             Debug.Log("Attack on enemy");
         }
         gameObject.SetActive(false);
-        Debug.Log("Projectile disabled from collision");
+        //Debug.Log("Projectile disabled from collision");
     }
 }
