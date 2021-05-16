@@ -35,5 +35,4 @@ public class FoliageMover : MonoBehaviour
             anim.ResetTrigger("move");
         }
     }
-
 }

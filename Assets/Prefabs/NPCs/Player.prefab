@@ -201,9 +201,7 @@ MonoBehaviour:
   moveSpeed: 5
   rotationSpeed: 0.1
   testFloat: 4
-  rb: {fileID: 3544071030827743893}
   sceneCamera: {fileID: 0}
-  animator: {fileID: 3544071030827743888}
   playerAudio: {fileID: 3544071030827743918}
 --- !u!114 &3544071030827743890
 MonoBehaviour:
@@ -221,7 +219,6 @@ MonoBehaviour:
   firePoint: {fileID: 3544071031472093186}
   fireForce: 20
   ammo: 20
-  animator: {fileID: 3544071030827743888}
   ammoText: {fileID: 0}
 --- !u!114 &3544071030827743919
 MonoBehaviour:
@@ -235,8 +232,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5c8c99109fa16014c84c7952d2dad3df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 3544071030827743888}
-  maxHealth: 20
+  maxHealth: 100
   healthSlider: {fileID: 0}
 --- !u!95 &3544071030827743888
 Animator:
@@ -285,7 +281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 941386768d240414782fff71e8e9e756, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioS: {fileID: 3544071030827743917}
   idleSnapshot: {fileID: 24500006, guid: 52769c196a3a1704cb756e485e490ef5, type: 2}
   auxInSnapshot: {fileID: 7646425661315276711, guid: 52769c196a3a1704cb756e485e490ef5, type: 2}
   ambIdleSnapshot: {fileID: 24500006, guid: fe1974c90a4fa05449ce34da2c4e8252, type: 2}
