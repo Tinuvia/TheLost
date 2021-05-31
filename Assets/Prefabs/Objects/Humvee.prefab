@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 578028091}
   m_LocalRotation: {x: -0, y: -0, z: -0.6729705, w: 0.73966944}
-  m_LocalPosition: {x: 4.7747903, y: 2.09453, z: 0}
+  m_LocalPosition: {x: 6.01, y: 2.37, z: 0}
   m_LocalScale: {x: 1.7903957, y: 1.7903957, z: 1.7903961}
   m_Children: []
   m_Father: {fileID: 6482673404509573987}
@@ -52,7 +52,7 @@ MonoBehaviour:
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000d3f3ecf2ab3ce2b74b85e72071a6e5fa854bd27593b76136
   m_LightCookieSprite: {fileID: 0}
-  m_UseNormalMap: 0
+  m_UseNormalMap: 1
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0.5
@@ -161,7 +161,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1549843159}
   m_LocalRotation: {x: -0, y: -0, z: -0.7080661, w: 0.70614624}
-  m_LocalPosition: {x: 5.3310595, y: -1.6785653, z: 0}
+  m_LocalPosition: {x: 6.08, y: -2.3, z: 0}
   m_LocalScale: {x: 1.7903959, y: 1.7903959, z: 1.7903961}
   m_Children: []
   m_Father: {fileID: 6482673404509573987}
@@ -187,7 +187,7 @@ MonoBehaviour:
   m_LightVolumeOpacity: 0
   m_ApplyToSortingLayers: 00000000d3f3ecf2ab3ce2b74b85e72071a6e5fa854bd27593b76136
   m_LightCookieSprite: {fileID: 0}
-  m_UseNormalMap: 0
+  m_UseNormalMap: 1
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0.5
@@ -282,6 +282,7 @@ GameObject:
   - component: {fileID: 6482673404509573986}
   - component: {fileID: 6482673404509573985}
   - component: {fileID: 6482673404509573984}
+  - component: {fileID: 6482673403767336237}
   m_Layer: 0
   m_Name: Humvee
   m_TagString: Untagged
@@ -401,10 +402,32 @@ MonoBehaviour:
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 00000000d3f3ecf2ab3ce2b74b85e72071a6e5fa854bd27593b76136
   m_ShapePath:
-  - {x: -4.8381753, y: -3.953665, z: 0}
-  - {x: 4.8381753, y: -3.953665, z: 0}
-  - {x: 4.8381753, y: 3.953665, z: 0}
-  - {x: -4.8381753, y: 3.953665, z: 0}
-  m_ShapePathHash: 0
+  - {x: -5.786996, y: -2.994351, z: 0}
+  - {x: 6.079012, y: -2.78335, z: 0}
+  - {x: 5.899096, y: 2.91783, z: 0}
+  - {x: 4.8400903, y: 2.897845, z: 0}
+  - {x: 4.509199, y: 3.38437, z: 0}
+  - {x: 3.26274, y: 2.8865469, z: 0}
+  - {x: -5.904076, y: 2.873601, z: 0}
+  m_ShapePathHash: -1960845217
   m_Mesh: {fileID: 0}
-  m_InstanceId: 19738
+  m_InstanceId: -49118
+--- !u!114 &6482673403767336237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6482673404509573996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23601f96e0471c94cb1676dea4eb8980, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  storyElements:
+  - It's a Humvee.
+  - Made in America, by Americans.
+  - American Motors Corporation, Indiana.
+  - It's stocked with food, ammo and medical supplies.
+  - I can't carry the Browning .50. It weighs too much.
+  timeToShow: 5

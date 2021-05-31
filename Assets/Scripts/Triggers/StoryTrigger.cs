@@ -28,17 +28,9 @@ public class StoryTrigger : MonoBehaviour, IPointerClickHandler
         }
     }
 
-    /*
-    public void OnMouseExit()
-    {
-        TooltipSystem.Hide();
-    }
-    */
-
     IEnumerator Delay()
     {
         yield return new WaitForSeconds(timeToShow); // disable tooltip after x secs
         StorySystem.Hide();
-        Debug.Log("Hiding tooltip");
     }
 }

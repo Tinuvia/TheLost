@@ -24,7 +24,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private AudioClip reaverWalking;
 
     public Transform target;
-    public GameObject player; // only works in this scene? if so, instead intitalize in start as usual
+    private GameObject player;
     [HideInInspector] public bool isDead = false;
 
     Animator animator;
@@ -36,6 +36,7 @@ public class Enemy : MonoBehaviour
         health = maxHealth;
         animator = GetComponent<Animator>();
         isMovingHash = Animator.StringToHash("isMoving");
+        player = GameObject.FindWithTag("Player");
     }
 
 
