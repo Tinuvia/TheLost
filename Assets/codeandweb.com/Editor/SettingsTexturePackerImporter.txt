@@ -11,7 +11,7 @@ tpsheetFileNames:
 - Assets/Sprites/PlayerMale/PlayerMaleReload/PlayerMale_Reload.tpsheet
 - Assets/Sprites/PlayerMale/PlayerMaleWalk/PlayerMale_Walk.tpsheet
 - Assets/Sprites/PlayerMale/PlayerMaleWounded/PlayerMale_Wounded.tpsheet
-- Assets/Sprites/Tiles/Tiles01.tpsheet
+- Assets/Sprites/RawTiles/Tiles01.tpsheet
 textureFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites.png
 - Assets/Sprites/EnemyReaver/EnemyReaver_Dead.png
@@ -23,7 +23,7 @@ textureFileNames:
 - Assets/Sprites/PlayerMale/PlayerMaleReload/PlayerMale_Reload.png
 - Assets/Sprites/PlayerMale/PlayerMaleWalk/PlayerMale_Walk.png
 - Assets/Sprites/PlayerMale/PlayerMaleWounded/PlayerMale_Wounded.png
-- Assets/Sprites/Tiles/Tiles01.png
+- Assets/Sprites/RawTiles/Tiles01.png
 normalmapFileNames:
 - Assets/codeandweb.com/Example/SpriteSheet/sprites_n.png
 - 
