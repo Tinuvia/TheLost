@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
+public class StoryTrigger : MonoBehaviour, IPointerClickHandler
 {
     public string[] storyElements;
     public float timeToShow = 3f;
@@ -17,13 +17,14 @@ public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
             if (stringToShow < storyElements.Length)
             {
                 string content = storyElements[stringToShow];
-                TooltipSystem.Show(content);
+                StorySystem.Show(content, transform.position);
                 Debug.Log("Story: " + content);
                 stringToShow++;
                 // StartCoroutine("Delay");
-                
-            } else
-                TooltipSystem.Hide();
+
+            }
+            else
+                StorySystem.Hide();
         }
     }
 
@@ -37,7 +38,7 @@ public class TooltipTrigger : MonoBehaviour, IPointerClickHandler
     IEnumerator Delay()
     {
         yield return new WaitForSeconds(timeToShow); // disable tooltip after x secs
-        TooltipSystem.Hide();
+        StorySystem.Hide();
         Debug.Log("Hiding tooltip");
     }
 }

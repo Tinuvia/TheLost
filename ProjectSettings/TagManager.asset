@@ -66,3 +66,6 @@ TagManager:
   - name: TileHighs
     uniqueID: 912373651
     locked: 0
+  - name: StoryElements
+    uniqueID: 1319572507
+    locked: 0
