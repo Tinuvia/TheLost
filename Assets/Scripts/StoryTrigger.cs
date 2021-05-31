@@ -20,7 +20,7 @@ public class StoryTrigger : MonoBehaviour, IPointerClickHandler
                 StorySystem.Show(content, transform.position);
                 Debug.Log("Story: " + content);
                 stringToShow++;
-                // StartCoroutine("Delay");
+                StartCoroutine("Delay");
 
             }
             else
