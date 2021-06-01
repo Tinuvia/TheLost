@@ -21,12 +21,16 @@ public class PlayerAttack : MonoBehaviour
     }
 
     private void Update() {
-        if(Input.GetMouseButtonDown(0)) {
-            Fire();
+        if (!UIManager.isPaused) // checking to make sure we aren't in the pause menu
+        {
+            if(Input.GetMouseButtonDown(0)) {
+                Fire();
+            }
+            if (Input.GetMouseButtonUp(0)) {
+                StopFiring();
+            }
         }
-        if (Input.GetMouseButtonUp(0)) {
-            StopFiring();
-        }
+
     }
 
     public void Fire() {

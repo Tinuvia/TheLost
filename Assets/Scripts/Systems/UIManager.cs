@@ -7,7 +7,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] GameObject deathPanel;
     [SerializeField] GameObject pausePanel;
 
-    public bool isPaused = false;
+    public static bool isPaused = false;
 
     private void Update()
     {
