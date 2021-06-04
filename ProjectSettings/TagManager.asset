@@ -57,15 +57,18 @@ TagManager:
   - name: TileBorders
     uniqueID: 552043851
     locked: 0
-  - name: TileLows
+  - name: Lows
     uniqueID: 4209354353
+    locked: 0
+  - name: CollisionObjects
+    uniqueID: 1319572507
     locked: 0
   - name: NPCsInteractables
     uniqueID: 1976716165
     locked: 0
-  - name: TileHighs
+  - name: Highs
     uniqueID: 912373651
     locked: 0
-  - name: StoryElements
-    uniqueID: 1319572507
+  - name: Story
+    uniqueID: 2309203283
     locked: 0

@@ -549,7 +549,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
-  m_SortingLayerID: 1319572507
+  m_SortingLayerID: -1985764013
   m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &214057937
@@ -618,7 +618,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
+  m_AnchorMax: {x: 0.56, y: 1}
   m_AnchoredPosition: {x: 4.788574, y: 0}
   m_SizeDelta: {x: 19.5771, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -1369,7 +1369,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deathPanel: {fileID: 1452979737}
   pausePanel: {fileID: 1472822635}
-  isPaused: 0
 --- !u!114 &685409144
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2770,7 +2769,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1368517002
 RectTransform:
   m_ObjectHideFlags: 0
