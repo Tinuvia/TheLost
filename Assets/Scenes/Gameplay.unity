@@ -1410,9 +1410,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdab0f7e9e9f4d34ebfb6bffa1c6b35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pooledObjects: []
-  objectToPool: {fileID: 7693665829451394314, guid: a04125019e7993e478a6179d77ae97fe, type: 3}
-  amountToPool: 30
+  pools:
+  - tag: Projectile
+    prefab: {fileID: 7693665829451394314, guid: a04125019e7993e478a6179d77ae97fe, type: 3}
+    size: 30
 --- !u!4 &685553203
 Transform:
   m_ObjectHideFlags: 0
@@ -1421,7 +1422,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 685553201}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.807541, y: 6.806072, z: -17.852716}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}

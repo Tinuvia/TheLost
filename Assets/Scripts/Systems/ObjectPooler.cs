@@ -2,45 +2,70 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// From Brackey's tutorial on Object Pooling
+
 public class ObjectPooler : MonoBehaviour
 {
-    public static ObjectPooler SharedInstance;
-    public List<GameObject> pooledObjects;
-    public GameObject objectToPool;
-    public int amountToPool;
-
-    void Awake()
+    [System.Serializable]
+    public class Pool
     {
-        SharedInstance = this;
+        public string tag;
+        public GameObject prefab;
+        public int size;
+
     }
 
-    // Start is called before the first frame update
+    #region Singleton
+    public static ObjectPooler Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
+    #endregion
+
+    public List<Pool> pools;
+    public Dictionary<string, Queue<GameObject>> poolDictionary;
+
+
     void Start()
     {
-        // Loop through list of pooled objects,deactivating them and adding them to the list 
-        pooledObjects = new List<GameObject>();
-        for (int i = 0; i < amountToPool; i++)
-        {
-            GameObject obj = (GameObject)Instantiate(objectToPool);
-            obj.SetActive(false);
-            pooledObjects.Add(obj);
-            obj.transform.SetParent(this.transform); // set as children of Spawn Manager
-        }
-    }
+        poolDictionary = new Dictionary<string, Queue<GameObject>>();
 
-    public GameObject GetPooledObject()
-    {
-        // For as many objects as are in the pooledObjects list
-        for (int i = 0; i < pooledObjects.Count; i++)
+        foreach (Pool pool in pools)
         {
-            // if the pooled objects is NOT active, return that object 
-            if (!pooledObjects[i].activeInHierarchy)
+            Queue<GameObject> objectPool = new Queue<GameObject>();
+
+            for (int i = 0; i < pool.size; i++)
             {
-                return pooledObjects[i];
+                GameObject obj = Instantiate(pool.prefab);
+                obj.SetActive(false);
+                objectPool.Enqueue(obj);
+                // from Unity tutorial ObjectPooler script
+                obj.transform.SetParent(this.transform); // set as children of Spawn Manager
             }
+
+            poolDictionary.Add(pool.tag, objectPool);
         }
-        // otherwise, return null   
-        return null;
+
     }
 
+    public GameObject SpawnFromPool(string tag, Vector3 position, Quaternion rotation)
+    {
+        if (!poolDictionary.ContainsKey(tag))
+        {
+            Debug.LogWarning("Pool with tag " + tag + " doesn't exist.");
+            return null;
+        }
+        GameObject objectToSpawn = poolDictionary[tag].Dequeue();
+
+        objectToSpawn.SetActive(true);
+        objectToSpawn.transform.position = position;
+        objectToSpawn.transform.rotation = rotation;
+
+        poolDictionary[tag].Enqueue(objectToSpawn);
+
+        return objectToSpawn;
+    }
 }
