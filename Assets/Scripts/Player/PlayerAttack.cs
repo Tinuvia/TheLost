@@ -5,16 +5,18 @@ using TMPro;
 
 public class PlayerAttack : MonoBehaviour
 {
-    [SerializeField] GameObject projectilePrefab;
+    //[SerializeField] GameObject projectilePrefab; Not in use?
     public Transform firePoint;
     public float fireForce;
     public int ammo;
     public TextMeshProUGUI ammoText;
     private Animator animator;
     private int isFiringHash;
+    private ObjectPooler objectPooler;
 
     void Start()
     {
+        objectPooler = ObjectPooler.Instance;
         animator = GetComponent<Animator>();
         ammoText.text = ammo.ToString();
         isFiringHash = Animator.StringToHash("IsFiring");
@@ -34,22 +36,18 @@ public class PlayerAttack : MonoBehaviour
     }
 
     public void Fire() {
-        if (ammo > 0) {     
-            GameObject pooledProjectile = ObjectPooler.SharedInstance.GetPooledObject();
+        if (ammo > 0) {
+            // GameObject pooledProjectile = ObjectPooler.SharedInstance.GetPooledObject(); // From Unity JP tutorial            
+            GameObject pooledProjectile = objectPooler.SpawnFromPool("Projectile", firePoint.position, firePoint.rotation); // Brackey
+
             if (pooledProjectile != null)
             {
-                pooledProjectile.SetActive(true);
-                pooledProjectile.transform.position = firePoint.position;
-                pooledProjectile.transform.rotation = firePoint.rotation;
+                pooledProjectile.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
+                UpdateAmmo(-1);
+                StartCoroutine("SetFalse", pooledProjectile);
+                animator.SetBool(isFiringHash, true);
                 Debug.Log("Projectile fired");
             }
-         
-            // GameObject pooledProjectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-            pooledProjectile.GetComponent<Rigidbody2D>().AddForce(firePoint.up * fireForce, ForceMode2D.Impulse);
-
-            UpdateAmmo(-1);
-            StartCoroutine("SetFalse", pooledProjectile);
-            animator.SetBool(isFiringHash, true);
         }
     }
 
