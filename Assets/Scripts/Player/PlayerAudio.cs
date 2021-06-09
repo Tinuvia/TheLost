@@ -14,13 +14,15 @@ public class PlayerAudio : MonoBehaviour
     public float enterTransitionTime;
     public float footstepsPitch;
     public AudioClip[] forestWalking;
-    //public AudioClip[] hardSteps;
-    //public AudioClip[] mudSteps;
+    public AudioClip[] hardSteps;
+    public AudioClip[] mudSteps;
+    public AudioClip[] bloodSounds;
 
     private AudioSource audioS;
     private Rigidbody2D rb;
     private float playerSpeed;
     private bool isFootstepsPlaying = false;
+    private AudioClip[] stepClipToPlay;
 
     private void Start()
     {
@@ -36,12 +38,22 @@ public class PlayerAudio : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        /*
-        if (collision.CompareTag("Water"))
+        if (collision.CompareTag("BloodZone"))
         {
-            audioS.PlayOneShot(splashSound);
+            int r = Random.Range(0, bloodSounds.Length);
+            audioS.PlayOneShot(bloodSounds[r]);
+            audioS.pitch = Random.Range(0.9f, 1.1f);
+            audioS.volume = Random.Range(0.8f, 1.0f);
+            Debug.Log("Playing Bloodsounds");
         }
-        */
+
+        if (collision.CompareTag("MudFloor"))
+        {
+            stepClipToPlay = mudSteps;
+            isFootstepsPlaying = false;
+            PlayFootsteps(playerSpeed);
+        }
+
         if (collision.CompareTag("Enemy")) {
             bool enemyIsDead = collision.GetComponent<Enemy>().isDead;
             if (!enemyIsDead)
@@ -68,15 +80,27 @@ public class PlayerAudio : MonoBehaviour
         {
             ambIdleSnapshot.TransitionTo(enterTransitionTime);
         }
+
+        if (collision.CompareTag("MudFloor"))
+        {
+            stepClipToPlay = forestWalking; // reset to default sound
+            isFootstepsPlaying = false;
+            PlayFootsteps(playerSpeed);
+        }        
     }
 
 
     private void PlayFootsteps(float playerSpeed)
-    {            
-        if((playerSpeed > 0.1) && !isFootstepsPlaying)
+    {
+        if (stepClipToPlay == null)
         {
-            int r = Random.Range(0, forestWalking.Length);
-            audioS.clip = forestWalking[r];
+            stepClipToPlay = forestWalking;
+        }
+
+        if ((playerSpeed > 0.1) && !isFootstepsPlaying)
+        {
+            int r = Random.Range(0, stepClipToPlay.Length);
+            audioS.clip = stepClipToPlay[r];
             audioS.pitch = footstepsPitch;
             audioS.Play();
             isFootstepsPlaying = true;
@@ -87,41 +111,5 @@ public class PlayerAudio : MonoBehaviour
             audioS.Stop();
             isFootstepsPlaying = false;
         }
-
-    }
-    // check if footsteps are playing
-    // (check if right footstep type is playing)
-    // if player is moving && !footstepsPlaying --> start playing footsteps (loop)
-    // if player isn't moving && footstepsplaying --> stop playing
-
-    /* Need to figure out Raycast in 2D first
-    public void FootSteps()
-    {
-        RaycastHit2D hit;
-        Ray2D ray = new Ray(transform.position, transform.back);
-        int r = Random.Range(0, 3);
-        if(Physics2D.Raycast(ray, out hit, 1f))
-        {
-            switch(hit.transform.tag)
-            {
-                case "MudFloor":
-                    audioS.PlayOneShot(mudSteps[r]);
-                    break;
-
-                case "ForestFloor":
-                    audioS.PlayOneShot(forestSteps[r]);
-                    break;
-
-                case "HardFloor":
-                    audioS.PlayOneShot(hardSteps[r]);
-                    break;
-
-                default:
-                    audioS.PlayOneShot(forestSteps[r]);
-                    break;
-
-            }
-        }
-    }
-    */
+    }  
 }

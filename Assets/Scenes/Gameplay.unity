@@ -452,6 +452,50 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: mudSteps.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: mudSteps.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: c92f628f6e68ae74b91ae68827a17d6c, type: 3}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 524817363383885488ec4b5a847eb839, type: 3}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 98f421078ae068b44865bcefff9fbab0, type: 3}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: f2cd4eb0175ddb2449d06551658bec30, type: 3}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3e742c295c61ca44295037272c61ff39, type: 3}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 805ed769d6aec984783adce916f3f803, type: 3}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: f2cd4eb0175ddb2449d06551658bec30, type: 3}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 3e742c295c61ca44295037272c61ff39, type: 3}
+    - target: {fileID: 3544071030827743918, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: bloodSounds.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 805ed769d6aec984783adce916f3f803, type: 3}
     - target: {fileID: 3544071030827743919, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
       propertyPath: healthSlider
       value: 
@@ -1414,8 +1458,14 @@ MonoBehaviour:
   - tag: DustTrail
     prefab: {fileID: 5607770930676009538, guid: 79490181c2f3088439e1a6aba05afd6c, type: 3}
     size: 30
+  - tag: LeafTrail
+    prefab: {fileID: 146883336995570494, guid: 4bfdf2bb54bc1a249aee33ff46db5180, type: 3}
+    size: 30
   - tag: Projectile
     prefab: {fileID: 7693665829451394314, guid: a04125019e7993e478a6179d77ae97fe, type: 3}
+    size: 30
+  - tag: BloodSplatter
+    prefab: {fileID: 5607770930676009538, guid: 16dd2411f28cc9b47b368374e22a7c6f, type: 3}
     size: 30
 --- !u!4 &685553203
 Transform:
@@ -2351,11 +2401,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3040779930113790531, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 34.6
+      value: 51.5
       objectReference: {fileID: 0}
     - target: {fileID: 3040779930113790531, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 24.8
+      value: 47.2
       objectReference: {fileID: 0}
     - target: {fileID: 3040779930113790531, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}
       propertyPath: m_LocalPosition.z

@@ -19,6 +19,10 @@ public class PlayerMovement : MonoBehaviour
     private float timeBtwTrail;
     public float startTimeBtwTrail = 2f;
     private GameObject dustTrail;
+    private string particlesToSpawn;
+    private string dustTrailTag = "DustTrail";
+    private string leafTrailTag = "LeafTrail";
+    private string bloodSplatterTag = "BloodSplatter";
 
     private ObjectPooler objectPooler;
 
@@ -32,6 +36,10 @@ public class PlayerMovement : MonoBehaviour
 
     void Update() {
         ProcessInputs();
+        if (rb.velocity.magnitude > 0.1f)
+        {
+            SpawnDustTrail(particlesToSpawn);
+        }
     }
 
     private void FixedUpdate() {
@@ -51,12 +59,11 @@ public class PlayerMovement : MonoBehaviour
         animator.SetFloat("Speed", rb.velocity.magnitude);
 
         // rotate player along move direction
-        if (rb.velocity.magnitude > 0f)
+        if (rb.velocity.magnitude > 0.1f)
         {            
             Quaternion newRotation = transform.rotation;
             newRotation.SetLookRotation(new Vector3(moveDirection.x, moveDirection.y, testFloat).normalized, Vector3.back);
             transform.rotation = Quaternion.Lerp(transform.rotation, newRotation, rotationSpeed);
-            SpawnDustTrail();
         }
 
         // Rotate player to follow mouse
@@ -65,12 +72,36 @@ public class PlayerMovement : MonoBehaviour
         rb.rotation = aimAngle;
     }
 
-    private void SpawnDustTrail()
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("MudFloor"))
+        {
+            particlesToSpawn = dustTrailTag; 
+        }
+        if (collision.CompareTag("BloodZone"))
+        {
+            particlesToSpawn = dustTrailTag;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.CompareTag("MudFloor"))
+        {
+            particlesToSpawn = leafTrailTag;
+        }
+        if (collision.CompareTag("BloodZone"))
+        {
+            particlesToSpawn = leafTrailTag;
+        }
+    }
+
+    private void SpawnDustTrail(string particlesToSpawn)
     {
         if (timeBtwTrail <= 0)
         {
-            dustTrail = objectPooler.SpawnFromPool("DustTrail", this.transform.position, Quaternion.identity);
-            dustTrail.transform.SetParent(this.transform);
+            dustTrail = objectPooler.SpawnFromPool(particlesToSpawn, transform.position, Quaternion.identity);
+            dustTrail.transform.SetParent(transform);
             timeBtwTrail = startTimeBtwTrail;
         }
         else
