@@ -1411,6 +1411,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pools:
+  - tag: DustTrail
+    prefab: {fileID: 5607770930676009538, guid: 79490181c2f3088439e1a6aba05afd6c, type: 3}
+    size: 30
   - tag: Projectile
     prefab: {fileID: 7693665829451394314, guid: a04125019e7993e478a6179d77ae97fe, type: 3}
     size: 30
