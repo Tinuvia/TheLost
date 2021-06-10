@@ -32,6 +32,7 @@ public class PlayerMovement : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         timeBtwTrail = startTimeBtwTrail;
+        bSpawnDust = true;
     }
 
     void Update() {
@@ -80,7 +81,11 @@ public class PlayerMovement : MonoBehaviour
         }
         if (collision.CompareTag("BloodZone"))
         {
-            particlesToSpawn = dustTrailTag;
+            if (bSpawnDust)
+            {
+                objectPooler.SpawnFromPool("BloodSplatter", transform.position, Quaternion.identity);
+                bSpawnDust = false;
+            }
         }
     }
 
@@ -92,7 +97,7 @@ public class PlayerMovement : MonoBehaviour
         }
         if (collision.CompareTag("BloodZone"))
         {
-            particlesToSpawn = leafTrailTag;
+            bSpawnDust = true;
         }
     }
 
