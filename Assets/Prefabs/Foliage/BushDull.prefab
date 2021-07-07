@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 3798172260896448944}
   - component: {fileID: 468581199284329639}
   - component: {fileID: 2503358005702713709}
+  - component: {fileID: 3265377917057357806}
+  - component: {fileID: 1426837503299937620}
   m_Layer: 0
   m_Name: BushDull
   m_TagString: Untagged
@@ -69,8 +71,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -85612943
-  m_SortingLayer: 4
+  m_SortingLayerID: 912373651
+  m_SortingLayer: 7
   m_SortingOrder: 1
   m_Sprite: {fileID: -4446318149281042294, guid: 71ceee070f651864e8bdac305a6474a3, type: 3}
   m_Color: {r: 0.9622642, g: 0.9354753, b: 0.9304913, a: 1}
@@ -139,4 +141,36 @@ MonoBehaviour:
   - {x: -0.77280474, y: -0.6923046, z: 0.000000059604645}
   m_ShapePathHash: 1380606199
   m_Mesh: {fileID: 0}
-  m_InstanceId: -9206
+  m_InstanceId: 67252
+--- !u!58 &3265377917057357806
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509773816471652832}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.045674562, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2492526
+--- !u!114 &1426837503299937620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8509773816471652832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
+  rotationSpeed: 6
+  maxRotation: 3

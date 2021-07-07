@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 8102364371280780464}
   - component: {fileID: 8102364371280780467}
   - component: {fileID: 8102364371280780466}
+  - component: {fileID: 5616344660451917640}
+  - component: {fileID: 6386329267693249271}
   m_Layer: 0
   m_Name: BushRound01
   m_TagString: Untagged
@@ -70,10 +72,10 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 912373651
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 6038169416847804372, guid: 478cbcd57cc96ee4fb8f5e96450373c2, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.764151, g: 0.764151, b: 0.764151, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -108,4 +110,36 @@ MonoBehaviour:
   - {x: -0.77228457, y: 0.743444, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 19240
+  m_InstanceId: 72850
+--- !u!114 &5616344660451917640
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102364371280780465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 8b6db3932f4a5f349ad3ad6e7c5a11fc, type: 3}
+  rotationSpeed: 15
+  maxRotation: 3
+--- !u!58 &6386329267693249271
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8102364371280780465}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.01198975, y: 0.00000018600295}
+  serializedVersion: 2
+  m_Radius: 0.97119594
