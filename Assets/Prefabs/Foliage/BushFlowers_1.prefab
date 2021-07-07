@@ -253,4 +253,3 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
   rotationSpeed: 10
   maxRotation: 5
-  rotateTime: 0.5

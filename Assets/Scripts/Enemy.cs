@@ -16,6 +16,7 @@ public class Enemy : MonoBehaviour
     [Header("Health")]
     private float health;
     [SerializeField] private float maxHealth;
+    [SerializeField] private float delayDestroy = 4f;
 
     [Header("Dying")]
     [SerializeField] private string[] deathAnims;
@@ -107,6 +108,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
+<<<<<<< HEAD
     private void Dying()
     {
         int r = Random.Range(0, deathAnims.Length);
@@ -114,6 +116,8 @@ public class Enemy : MonoBehaviour
         Debug.Log("Plays death anim " + deathAnims[r]);
     }
 
+=======
+>>>>>>> parent of 93547e3 (adds rotationtimer)
     private void AttackPlayer(Collision2D collision) {
         if (collision.gameObject.tag == "Player") {
             if (attackSpeed <= canAttack) {
