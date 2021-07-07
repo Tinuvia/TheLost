@@ -17,9 +17,12 @@ public class Enemy : MonoBehaviour
     private float health;
     [SerializeField] private float maxHealth;
     [SerializeField] private float delayDestroy = 4f;
+<<<<<<< HEAD
 
     [Header("Dying")]
     [SerializeField] private string[] deathAnims;
+=======
+>>>>>>> parent of 93547e3 (adds rotationtimer)
 
     [Header("Audio")]
     [SerializeField] private AudioSource audioS;
@@ -109,6 +112,7 @@ public class Enemy : MonoBehaviour
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     private void Dying()
     {
         int r = Random.Range(0, deathAnims.Length);
@@ -116,6 +120,8 @@ public class Enemy : MonoBehaviour
         Debug.Log("Plays death anim " + deathAnims[r]);
     }
 
+=======
+>>>>>>> parent of 93547e3 (adds rotationtimer)
 =======
 >>>>>>> parent of 93547e3 (adds rotationtimer)
     private void AttackPlayer(Collision2D collision) {

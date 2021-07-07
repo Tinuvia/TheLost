@@ -455,6 +455,7 @@ AnimatorController:
     m_DefaultBool: 0
     m_Controller: {fileID: 9100000}
   - m_Name: Dying
+<<<<<<< HEAD
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
@@ -462,10 +463,13 @@ AnimatorController:
 <<<<<<< HEAD
     m_Controller: {fileID: 0}
   - m_Name: Dying02
+=======
+>>>>>>> parent of 93547e3 (adds rotationtimer)
     m_Type: 9
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
+<<<<<<< HEAD
     m_Controller: {fileID: 0}
   - m_Name: Dying03
     m_Type: 9
@@ -473,6 +477,9 @@ AnimatorController:
     m_DefaultInt: 0
     m_DefaultBool: 0
     m_Controller: {fileID: 0}
+=======
+    m_Controller: {fileID: 9100000}
+>>>>>>> parent of 93547e3 (adds rotationtimer)
 =======
     m_Controller: {fileID: 9100000}
 >>>>>>> parent of 93547e3 (adds rotationtimer)
