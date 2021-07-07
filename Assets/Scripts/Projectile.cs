@@ -13,6 +13,13 @@ public class Projectile : MonoBehaviour
             collision.gameObject.GetComponent<Enemy>().TakeDamage(attackDamage);
             Debug.Log("Attack on enemy");
         }
+
+        if(collision.gameObject.tag == "DamageableObject")
+        {
+            collision.gameObject.GetComponent<DamageableObjects>().TakeDamage(attackDamage);
+            Debug.Log("Attack on DamageableObject");
+        }
+
         gameObject.SetActive(false);
         //Debug.Log("Projectile disabled from collision");
     }

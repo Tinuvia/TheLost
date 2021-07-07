@@ -12,6 +12,7 @@ TagManager:
   - HardFloor
   - MudFloor
   - BloodZone
+  - DamageableObject
   layers:
   - Default
   - TransparentFX
