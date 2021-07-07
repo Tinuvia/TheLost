@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 5660342282504504139}
   - component: {fileID: 1325681734794640454}
   - component: {fileID: 3863361635097178963}
-  - component: {fileID: 1597488511063523225}
-  - component: {fileID: 2026997881813103465}
   - component: {fileID: -6857204425983168841}
+  - component: {fileID: 4125639157876889718}
   m_Layer: 0
   m_Name: BushFlowers_1
   m_TagString: Untagged
@@ -115,7 +114,7 @@ MonoBehaviour:
   - {x: -0.71918005, y: -0.01746286, z: 0}
   m_ShapePathHash: 791439978
   m_Mesh: {fileID: 0}
-  m_InstanceId: -21732
+  m_InstanceId: 55272
 --- !u!82 &3863361635097178963
 AudioSource:
   m_ObjectHideFlags: 0
@@ -212,39 +211,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!95 &1597488511063523225
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095834838194975665}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: d7b94fd222b78dc42abdf304c8caa539, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &2026997881813103465
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2095834838194975665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5edc0d4dc52869c42b7bba0bcdf472c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foliageRustle:
-  - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
 --- !u!61 &-6857204425983168841
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -271,3 +237,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8205557, y: 1.8500001}
   m_EdgeRadius: 0
+--- !u!114 &4125639157876889718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095834838194975665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
+  rotationSpeed: 10
+  maxRotation: 5

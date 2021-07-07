@@ -12,9 +12,8 @@ GameObject:
   - component: {fileID: 4612515298105885893}
   - component: {fileID: 8110539814222174371}
   - component: {fileID: 1533890349}
-  - component: {fileID: 1533890350}
-  - component: {fileID: 1533890352}
   - component: {fileID: 7839784479441497551}
+  - component: {fileID: -9046685780986799517}
   m_Layer: 0
   m_Name: PalmLarge
   m_TagString: Untagged
@@ -74,7 +73,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 912373651
-  m_SortingLayer: 6
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 7102895847136668135, guid: 1ed21e089f34a5d4191daea28745838a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -159,41 +158,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 5.651725, y: 5.6200004}
   m_EdgeRadius: 0
---- !u!95 &1533890350
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513115535818370128}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 884ed17a9ae16bc45add2be5c37ac2f9, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1533890352
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 513115535818370128}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5edc0d4dc52869c42b7bba0bcdf472c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  foliageRustle:
-  - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
-  - {fileID: 8300000, guid: 8b6db3932f4a5f349ad3ad6e7c5a11fc, type: 3}
-  - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
 --- !u!82 &7839784479441497551
 AudioSource:
   m_ObjectHideFlags: 0
@@ -290,3 +254,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-9046685780986799517
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 513115535818370128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
+  - {fileID: 8300000, guid: 8b6db3932f4a5f349ad3ad6e7c5a11fc, type: 3}
+  - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
+  rotationSpeed: 10
+  maxRotation: 5

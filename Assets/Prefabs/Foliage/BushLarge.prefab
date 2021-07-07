@@ -13,8 +13,7 @@ GameObject:
   - component: {fileID: 8973560637544064265}
   - component: {fileID: 4036808642820009757}
   - component: {fileID: 8476080652874190863}
-  - component: {fileID: -2610239965737710732}
-  - component: {fileID: 4450336144446640061}
+  - component: {fileID: 7648588506658104969}
   m_Layer: 0
   m_Name: BushLarge
   m_TagString: Untagged
@@ -115,7 +114,7 @@ MonoBehaviour:
   - {x: -2.2020648, y: -0.45204356, z: 0}
   m_ShapePathHash: -843080323
   m_Mesh: {fileID: 0}
-  m_InstanceId: 23158
+  m_InstanceId: 55684
 --- !u!61 &4036808642820009757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -238,7 +237,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &-2610239965737710732
+--- !u!114 &7648588506658104969
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -247,27 +246,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6979650400103021851}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5edc0d4dc52869c42b7bba0bcdf472c4, type: 3}
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   foliageRustle:
   - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
---- !u!95 &4450336144446640061
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6979650400103021851}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 91bbc924ac4aa724e9bbb519a0fcdf97, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  rotationSpeed: 10
+  maxRotation: 5

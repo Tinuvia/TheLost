@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8797660108658756804}
   - component: {fileID: 6685436792639037480}
   - component: {fileID: 5713015974940974083}
-  - component: {fileID: 4708386222841652912}
+  - component: {fileID: 4543284030175080326}
   m_Layer: 0
   m_Name: Foliage5_4
   m_TagString: Untagged
@@ -207,7 +207,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &4708386222841652912
+--- !u!114 &4543284030175080326
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -216,8 +216,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1237211559558595309}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5edc0d4dc52869c42b7bba0bcdf472c4, type: 3}
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   foliageRustle:
   - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
+  rotationSpeed: 10
+  maxRotation: 5
