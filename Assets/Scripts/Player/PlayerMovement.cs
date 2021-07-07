@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     private string particlesToSpawn;
     private string dustTrailTag = "DustTrail";
     private string leafTrailTag = "LeafTrail";
-    private string bloodSplatterTag = "BloodSplatter";
 
     private ObjectPooler objectPooler;
 

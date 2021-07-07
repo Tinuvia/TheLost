@@ -16,7 +16,6 @@ public class Enemy : MonoBehaviour
     [Header("Health")]
     private float health;
     [SerializeField] private float maxHealth;
-    [SerializeField] private float delayDestroy = 4f;
 
     [Header("Audio")]
     [SerializeField] private AudioSource audioS;
@@ -106,6 +105,11 @@ public class Enemy : MonoBehaviour
             // Instead, replace with lootable object that is deactivated/destroyed after some time
             //StartCoroutine("RemoveEnemyAfterTime", delayDestroy);
         }
+    }
+
+    private void Dying()
+    {
+
     }
 
     private void AttackPlayer(Collision2D collision) {
