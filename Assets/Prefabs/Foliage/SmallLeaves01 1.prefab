@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 9164792079188295462}
   - component: {fileID: 3079238430158895989}
   - component: {fileID: 2953058405539985679}
-  - component: {fileID: 1945075461826561749}
   - component: {fileID: 7570183864665284636}
   - component: {fileID: 5937557726610665132}
   - component: {fileID: 1871127660191541363}
@@ -124,26 +123,7 @@ MonoBehaviour:
   - {x: -0.8852635, y: -0.5309846, z: 0}
   m_ShapePathHash: 799847398
   m_Mesh: {fileID: 0}
-  m_InstanceId: 40462
---- !u!95 &1945075461826561749
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1742406385162089169}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 996a556366172c94a827b3f04b55d8fb, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
+  m_InstanceId: 58024
 --- !u!61 &7570183864665284636
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -179,11 +159,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1742406385162089169}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5edc0d4dc52869c42b7bba0bcdf472c4, type: 3}
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   foliageRustle:
-  - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
+  - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
+  rotationSpeed: 10
+  maxRotation: 5
 --- !u!82 &1871127660191541363
 AudioSource:
   m_ObjectHideFlags: 0
