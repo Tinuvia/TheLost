@@ -131,7 +131,7 @@ MonoBehaviour:
   - {x: -0.6534529, y: -0.38102448, z: 0}
   m_ShapePathHash: 1091063149
   m_Mesh: {fileID: 0}
-  m_InstanceId: -3818
+  m_InstanceId: 70050
 --- !u!61 &1533890349
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -271,4 +271,4 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 8b6db3932f4a5f349ad3ad6e7c5a11fc, type: 3}
   - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
   rotationSpeed: 10
-  maxRotation: 5
+  maxRotation: 2
