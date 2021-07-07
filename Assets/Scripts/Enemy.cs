@@ -18,6 +18,9 @@ public class Enemy : MonoBehaviour
     [SerializeField] private float maxHealth;
     [SerializeField] private float delayDestroy = 4f;
 
+    [Header("Dying")]
+    [SerializeField] private string[] deathAnims;
+
     [Header("Audio")]
     [SerializeField] private AudioSource audioS;
     [SerializeField] private AudioClip detectScream;
@@ -36,7 +39,7 @@ public class Enemy : MonoBehaviour
         health = maxHealth;
         animator = GetComponent<Animator>();
         isMovingHash = Animator.StringToHash("isMoving");
-        player = GameObject.FindWithTag("Player");
+        player = GameObject.FindWithTag("Player");      
     }
 
 
@@ -97,17 +100,24 @@ public class Enemy : MonoBehaviour
          // to get access to player, better to subscribe to the projectile's OnCollision?
 
         if (health <= 0f) {
-            animator.SetTrigger("Dying");
+            Dying();
             animator.SetBool(isMovingHash, false);
             target = null;
             isDead = true;
             Debug.Log("Enemy is dead");
-
-            // Instead, replace with lootable object that is deactivated/destroyed after some time
-            //StartCoroutine("RemoveEnemyAfterTime", delayDestroy);
         }
     }
 
+<<<<<<< HEAD
+    private void Dying()
+    {
+        int r = Random.Range(0, deathAnims.Length);
+        animator.SetTrigger(deathAnims[r]);
+        Debug.Log("Plays death anim " + deathAnims[r]);
+    }
+
+=======
+>>>>>>> parent of 93547e3 (adds rotationtimer)
     private void AttackPlayer(Collision2D collision) {
         if (collision.gameObject.tag == "Player") {
             if (attackSpeed <= canAttack) {
