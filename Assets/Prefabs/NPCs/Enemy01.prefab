@@ -103,6 +103,7 @@ MonoBehaviour:
   attackDamage: 10
   attackSpeed: 0.5
   maxHealth: 30
+  delayDestroy: 4
   deathAnims:
   - Dying01
   - Dying02
