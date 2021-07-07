@@ -396,6 +396,30 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3544071030100231448, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: m_LightOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544071030100231448, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: m_ShadowIntensity
+      value: 0.234
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544071030100231448, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: m_FalloffIntensity
+      value: 0.495
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544071030100231448, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: m_PointLightInnerRadius
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544071030100231448, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3544071030100231448, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
+      propertyPath: m_ApplyToSortingLayers.Array.data[7]
+      value: 1319572507
+      objectReference: {fileID: 0}
     - target: {fileID: 3544071030827743890, guid: 05d098dc582b7dd47acdaae87248ea32, type: 3}
       propertyPath: ammoText
       value: 
