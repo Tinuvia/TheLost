@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4832686699966326352}
   - component: {fileID: 4832686699966326353}
   - component: {fileID: 4832686699966326354}
+  - component: {fileID: 7725708249398177896}
+  - component: {fileID: 9082689534747541810}
   m_Layer: 0
   m_Name: Palmtree01
   m_TagString: Untagged
@@ -108,4 +110,48 @@ MonoBehaviour:
   - {x: -1.6476986, y: 1.6759974, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 19560
+  m_InstanceId: 24214
+--- !u!114 &7725708249398177896
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832686699966326359}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
+  - {fileID: 8300000, guid: 8b6db3932f4a5f349ad3ad6e7c5a11fc, type: 3}
+  rotationSpeed: 10
+  maxRotation: 5
+  rotateTime: 0.5
+--- !u!61 &9082689534747541810
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4832686699966326359}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 3.8, y: 4.02}
+    newSize: {x: 3.8, y: 4.02}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.8, y: 4.02}
+  m_EdgeRadius: 0

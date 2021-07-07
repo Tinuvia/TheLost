@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4767113262521255828}
   - component: {fileID: 4767113262521255835}
   - component: {fileID: 4767113262521255834}
+  - component: {fileID: 2660512249533235957}
+  - component: {fileID: 2381924643605873649}
   m_Layer: 0
   m_Name: SmallLeaves03
   m_TagString: Untagged
@@ -102,10 +104,49 @@ MonoBehaviour:
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 00000000d3f3ecf2ab3ce2b74b85e72071a6e5fa854bd27593b76136
   m_ShapePath:
-  - {x: -0.5830288, y: -0.4604707, z: 0}
+  - {x: -0.766029, y: -0.32670802, z: 0}
+  - {x: -0.66872656, y: -1.2026948, z: 0}
+  - {x: 0.046810497, y: -0.94228375, z: 0}
   - {x: 0.5830288, y: -0.4604707, z: 0}
-  - {x: 0.5830288, y: 0.4604707, z: 0}
-  - {x: -0.5830288, y: 0.4604707, z: 0}
-  m_ShapePathHash: 0
+  - {x: 0.4884615, y: 0.01687005, z: 0}
+  - {x: 0.7638815, y: 0.5633753, z: 0}
+  - {x: 0.5503682, y: 1.2072377, z: 0}
+  - {x: 0.19848059, y: 0.8186626, z: 0}
+  - {x: 0.2807258, y: 0.25061902, z: 0}
+  - {x: -0.35075068, y: 0.25637996, z: 0}
+  m_ShapePathHash: 975505991
   m_Mesh: {fileID: 0}
-  m_InstanceId: 19636
+  m_InstanceId: 24440
+--- !u!114 &2660512249533235957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4767113262521255829}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 8b6db3932f4a5f349ad3ad6e7c5a11fc, type: 3}
+  rotationSpeed: 10
+  maxRotation: 5
+  rotateTime: 0.5
+--- !u!58 &2381924643605873649
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4767113262521255829}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1.2149999
