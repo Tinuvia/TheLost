@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 4891013401672177769}
   - component: {fileID: 4891013401672177768}
   - component: {fileID: 4891013401672177771}
+  - component: {fileID: 942519394628608458}
+  - component: {fileID: 4574959023341380714}
   m_Layer: 0
   m_Name: PalmLeaves01
   m_TagString: Untagged
@@ -116,4 +118,38 @@ MonoBehaviour:
   - {x: -1.5041666, y: 2.7873282, z: 0}
   m_ShapePathHash: -2118519778
   m_Mesh: {fileID: 0}
-  m_InstanceId: 72652
+  m_InstanceId: 23828
+--- !u!58 &942519394628608458
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891013401672177750}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.044971265, y: 0}
+  serializedVersion: 2
+  m_Radius: 2.8567438
+--- !u!114 &4574959023341380714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4891013401672177750}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
+  - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
+  rotationSpeed: 14
+  maxRotation: 3
+  rotateTime: 0.5
