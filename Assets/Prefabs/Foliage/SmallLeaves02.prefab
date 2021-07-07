@@ -11,6 +11,8 @@ GameObject:
   - component: {fileID: 701013908635291527}
   - component: {fileID: 701013908635291524}
   - component: {fileID: 701013908635291525}
+  - component: {fileID: 7338956255788195386}
+  - component: {fileID: 5782494790658570813}
   m_Layer: 0
   m_Name: SmallLeaves02
   m_TagString: Untagged
@@ -108,4 +110,47 @@ MonoBehaviour:
   - {x: -0.617543, y: 0.6337998, z: 0}
   m_ShapePathHash: 0
   m_Mesh: {fileID: 0}
-  m_InstanceId: 19834
+  m_InstanceId: 24334
+--- !u!61 &7338956255788195386
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701013908635291526}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 2.42, y: 2.28}
+    newSize: {x: 2.42, y: 2.28}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 2.42, y: 2.28}
+  m_EdgeRadius: 0
+--- !u!114 &5782494790658570813
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 701013908635291526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
+  rotationSpeed: 15
+  maxRotation: 3
+  rotateTime: 0.3
