@@ -13,6 +13,7 @@ TagManager:
   - MudFloor
   - BloodZone
   - DamageableObject
+  - LeafSplatter
   layers:
   - Default
   - TransparentFX

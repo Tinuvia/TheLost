@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 119015170807305898}
   m_Layer: 0
   m_Name: BushDull
-  m_TagString: Untagged
+  m_TagString: LeafSplatter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   - {x: -0.77280474, y: -0.6923046, z: 0.000000059604645}
   m_ShapePathHash: 1380606199
   m_Mesh: {fileID: 0}
-  m_InstanceId: 67252
+  m_InstanceId: 69332
 --- !u!58 &3265377917057357806
 CircleCollider2D:
   m_ObjectHideFlags: 0

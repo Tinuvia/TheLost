@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7320352322237988182}
   m_Layer: 0
   m_Name: Foliage4_6
-  m_TagString: Untagged
+  m_TagString: LeafSplatter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

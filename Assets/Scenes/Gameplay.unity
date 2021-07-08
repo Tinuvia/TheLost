@@ -1491,6 +1491,9 @@ MonoBehaviour:
   - tag: BloodSplatter
     prefab: {fileID: 5607770930676009538, guid: 16dd2411f28cc9b47b368374e22a7c6f, type: 3}
     size: 30
+  - tag: LeafSplatter
+    prefab: {fileID: 8762236166402324352, guid: 6753239801d216a40b065dedea286c37, type: 3}
+    size: 12
 --- !u!4 &685553203
 Transform:
   m_ObjectHideFlags: 0

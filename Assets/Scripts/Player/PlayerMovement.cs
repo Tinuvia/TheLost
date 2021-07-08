@@ -79,6 +79,14 @@ public class PlayerMovement : MonoBehaviour
         {
             particlesToSpawn = dustTrailTag; 
         }
+        if (collision.CompareTag("LeafSplatter"))
+        {
+            if (bSpawnDust)
+            {
+                objectPooler.SpawnFromPool("LeafSplatter", transform.position, Quaternion.identity);
+                bSpawnDust = false;
+            }
+        }
         if (collision.CompareTag("BloodZone"))
         {
             if (bSpawnDust)
@@ -96,6 +104,10 @@ public class PlayerMovement : MonoBehaviour
             particlesToSpawn = leafTrailTag;
         }
         if (collision.CompareTag("BloodZone"))
+        {
+            bSpawnDust = true;
+        }
+        if (collision.CompareTag("LeafSplatter"))
         {
             bSpawnDust = true;
         }

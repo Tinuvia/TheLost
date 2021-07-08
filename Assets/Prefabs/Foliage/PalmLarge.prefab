@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -9046685780986799517}
   m_Layer: 0
   m_Name: PalmLarge
-  m_TagString: Untagged
+  m_TagString: LeafSplatter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -272,3 +272,4 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
   rotationSpeed: 10
   maxRotation: 2
+  rotateTime: 0.5
