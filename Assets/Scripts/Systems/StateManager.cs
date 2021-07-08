@@ -1,13 +1,13 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+// not Unity-amel
+
 public class StateManager : MonoBehaviour
 {
     public void ReloadCurrentScene()
     {
-        SceneManager.LoadScene("Gameplay");
-        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        // SceneManager.LoadScene("Gameplay", LoadSceneMode.Additive); // Loads double eventsystem etc, since Gameplay loads the parts.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void ChangeSceneByName(string name)
