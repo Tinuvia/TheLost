@@ -13,7 +13,7 @@ public class DamageableObjects : MonoBehaviour
 
     void Start()
     {
-        origHealth = damagePerSprite * damagedStages.Length;
+        origHealth = damagePerSprite * (damagedStages.Length - 1);
         Debug.Log("Object Health is " + origHealth);
         objectHealth = origHealth;
         damagedObject = transform.GetComponent<SpriteRenderer>();
