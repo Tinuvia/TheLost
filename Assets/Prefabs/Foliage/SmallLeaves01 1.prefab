@@ -186,6 +186,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
   rotationSpeed: 10
   maxRotation: 5
+  rotateTime: 0.5
 --- !u!82 &1871127660191541363
 AudioSource:
   m_ObjectHideFlags: 0
@@ -208,7 +209,7 @@ AudioSource:
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
-  Pan2D: 0
+  Pan2D: 1
   rolloffMode: 0
   BypassEffects: 0
   BypassListenerEffects: 0
