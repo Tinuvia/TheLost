@@ -34,17 +34,6 @@ public class MenuManager : MonoBehaviour
     }
 
 
-    public void ChangeSceneByName(string name)
-    {
-        SceneManager.LoadScene(name);
-    }
-
-    public void QuitGame()
-    {
-        Debug.Log("Quitting game");
-        Application.Quit();
-    }
-
     IEnumerator PlayIntro()
     {
         playImage(darkBackground, timeDarkBackground);

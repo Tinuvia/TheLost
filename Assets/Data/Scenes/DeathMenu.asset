@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 137772211f8c3a74b91d45fd8c0b92a9, type: 3}
-  m_Name: Level02
+  m_Script: {fileID: 11500000, guid: b381d6165ff5b9749b3cd3638d4dee2e, type: 3}
+  m_Name: DeathMenu
   m_EditorClassIdentifier: 
-  sceneName: Level02
-  shortDescription: Second level with 1 team mate to find
+  sceneName: DeathMenu
+  shortDescription: Menu for when the player dies
   music: {fileID: 0}
   musicVolume: 0
-  enemiesCount: 4
+  type: 2

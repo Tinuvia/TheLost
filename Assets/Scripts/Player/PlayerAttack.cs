@@ -1,7 +1,7 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class PlayerAttack : MonoBehaviour
 {
@@ -23,21 +23,21 @@ public class PlayerAttack : MonoBehaviour
     }
 
     private void Update() {
-        if (!UIManager.isPaused) // checking to make sure we aren't in the pause menu
-        {
+        if (SceneManager.GetActiveScene() != SceneManager.GetSceneByName("PauseMenu")) // checking to make sure we aren't in the pause menu
+        {            
             if(Input.GetMouseButtonDown(0)) {
                 Fire();
             }
             if (Input.GetMouseButtonUp(0)) {
                 StopFiring();
             }
-        }
+        } else
+            Debug.Log("We are in the pause menu");
 
     }
 
     public void Fire() {
-        if (ammo > 0) {
-            // GameObject pooledProjectile = ObjectPooler.SharedInstance.GetPooledObject(); // From Unity JP tutorial            
+        if (ammo > 0) {       
             GameObject pooledProjectile = objectPooler.SpawnFromPool("Projectile", firePoint.position, firePoint.rotation); // Brackey
 
             if (pooledProjectile != null)
@@ -70,5 +70,4 @@ public class PlayerAttack : MonoBehaviour
             Debug.Log("Projectile disabled from time");
         }
     }
-
 }

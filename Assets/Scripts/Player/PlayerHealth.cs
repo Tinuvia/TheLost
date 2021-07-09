@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +9,7 @@ public class PlayerHealth : MonoBehaviour
     // After Command Pattern, set maxHealth to private
     [SerializeField] public float maxHealth = 100f;
     [SerializeField] private Slider healthSlider;
+    [SerializeField] private ScenesData scenesData;
 
     private void Start() {
         animator = GetComponent<Animator>();
@@ -38,7 +37,8 @@ public class PlayerHealth : MonoBehaviour
     private void PlayerDied()
     {
         Debug.Log("Player died called");
-        LevelManager.instance.GameOver();
+        scenesData.LoadDeathMenu();
+        //LevelManager.instance.GameOver();
         gameObject.SetActive(false);
     }
 
