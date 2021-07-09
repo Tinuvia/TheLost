@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+#if UNITY_EDITOR
+using UnityEditor;
+#endif
 
 [CreateAssetMenu(fileName = "sceneDB", menuName = "Scene Data/Database")]
 public class ScenesData : ScriptableObject
@@ -42,7 +45,16 @@ public class ScenesData : ScriptableObject
     {
         LoadLevelWithIndex(1);
     }
-   
+
+    public void ExitGame()
+    {
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
+#else
+        Application.Quit();
+#endif
+    }
+
     /*
      * Menus
      */
@@ -51,10 +63,5 @@ public class ScenesData : ScriptableObject
     public void LoadMainMenu()
     {
         SceneManager.LoadSceneAsync(menus[(int)Type.Main_Menu].sceneName);
-    }
-    //Load Pause Menu
-    public void LoadPauseMenu()
-    {
-        SceneManager.LoadSceneAsync(menus[(int)Type.Pause_Menu].sceneName);
     }
 }

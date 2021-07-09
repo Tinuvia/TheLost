@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+// not yet implemented, no need for loading bar. Should be synchronized with ScenesData too using NewGame() ?
 public class MainMenu : MonoBehaviour
 {
     public GameObject menu;
@@ -16,8 +17,8 @@ public class MainMenu : MonoBehaviour
     {
         HideMenu();
         ShowLoadingScreen();
-        scenesToLoad.Add(SceneManager.LoadSceneAsync("Gameplay01"));
-        scenesToLoad.Add(SceneManager.LoadSceneAsync("Level01Part01", LoadSceneMode.Additive)); //   Level01Part01
+        scenesToLoad.Add(SceneManager.LoadSceneAsync("Gameplay1"));
+        scenesToLoad.Add(SceneManager.LoadSceneAsync("Level1Part1", LoadSceneMode.Additive));
         StartCoroutine(LoadingScreen());
     }
 
@@ -44,10 +45,5 @@ public class MainMenu : MonoBehaviour
                 Debug.Log("Loading ...");
             }
         }
-    }
-
-    public void ExitGame()
-    {
-        Application.Quit();
     }
 }

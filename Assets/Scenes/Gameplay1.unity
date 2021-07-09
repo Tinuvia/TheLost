@@ -339,10 +339,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 685409144}
-        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
-        m_MethodName: ChangeSceneByName
-        m_Mode: 5
+      - m_Target: {fileID: 11400000, guid: 88645580548ac574a81edd2ec7c62f1c, type: 2}
+        m_TargetAssemblyTypeName: ScenesData, Assembly-CSharp
+        m_MethodName: LoadMainMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2127,10 +2127,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 685409144}
-        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
-        m_MethodName: ChangeSceneByName
-        m_Mode: 5
+      - m_Target: {fileID: 11400000, guid: 88645580548ac574a81edd2ec7c62f1c, type: 2}
+        m_TargetAssemblyTypeName: ScenesData, Assembly-CSharp
+        m_MethodName: LoadMainMenu
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2480,7 +2480,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3040779930113790557, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}
       propertyPath: m_Name
-      value: Level01Part02
+      value: Level1Part2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}
@@ -2727,9 +2727,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 685409144}
-        m_TargetAssemblyTypeName: StateManager, Assembly-CSharp
-        m_MethodName: ReloadCurrentScene
+      - m_Target: {fileID: 11400000, guid: 88645580548ac574a81edd2ec7c62f1c, type: 2}
+        m_TargetAssemblyTypeName: ScenesData, Assembly-CSharp
+        m_MethodName: RestartLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2842,7 +2842,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3040779930113790557, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}
       propertyPath: m_Name
-      value: Level01Part03
+      value: Level1Part3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}
@@ -3904,7 +3904,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3040779930113790557, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}
       propertyPath: m_Name
-      value: Level01Part01
+      value: Level1Part1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7714cc31d87b90148ac68cec8e0cba13, type: 3}

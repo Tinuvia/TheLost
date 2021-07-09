@@ -10,6 +10,7 @@ public class MenuManager : MonoBehaviour
     public Image lightBackground;
     public Image palmTrees;
     public GameObject titleMenu;
+    public ScenesData scenesData;
     public float timeDarkBackground = 10f;
     public float timeMenu = 11.5f;
     public float timeLightBackground = 10f;
@@ -31,18 +32,6 @@ public class MenuManager : MonoBehaviour
     private void playImage(Image img, float time)
     {
         fadingImageScript.FadeInImage(img, time);
-    }
-
-
-    public void ChangeSceneByName(string name)
-    {
-        SceneManager.LoadScene(name);
-    }
-
-    public void QuitGame()
-    {
-        Debug.Log("Quitting game");
-        Application.Quit();
     }
 
     IEnumerator PlayIntro()
