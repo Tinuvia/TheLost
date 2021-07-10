@@ -270,6 +270,6 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
   - {fileID: 8300000, guid: 8b6db3932f4a5f349ad3ad6e7c5a11fc, type: 3}
   - {fileID: 8300000, guid: 584ff28b6ade96c4488e98c61edc09c2, type: 3}
-  rotationSpeed: 10
+  rotationSpeed: 8
   maxRotation: 2
-  rotateTime: 0.5
+  rotateTime: 0.2

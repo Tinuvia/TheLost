@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6895090280003930966}
   - component: {fileID: 2763534405846774612}
   - component: {fileID: 7320352322237988182}
+  - component: {fileID: -4414223109480386346}
   m_Layer: 0
   m_Name: Foliage4_6
   m_TagString: LeafSplatter
@@ -95,7 +96,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.046307445, y: -0.00000047683716}
@@ -234,3 +235,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &-4414223109480386346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6434686400610438388}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  foliageRustle:
+  - {fileID: 8300000, guid: 8b6db3932f4a5f349ad3ad6e7c5a11fc, type: 3}
+  rotationSpeed: 6
+  maxRotation: 2
+  rotateTime: 0.2

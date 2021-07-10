@@ -139,7 +139,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f7ef4a15aea427b41a707674969fdcea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  foliageRustle: []
+  foliageRustle:
+  - {fileID: 8300000, guid: 7fbdecc8a7e5b0347ae04c21db6dbd06, type: 3}
   rotationSpeed: 10
   maxRotation: 3
   rotateTime: 0.5
