@@ -1494,6 +1494,9 @@ MonoBehaviour:
   - tag: LeafSplatter
     prefab: {fileID: 8762236166402324352, guid: 6753239801d216a40b065dedea286c37, type: 3}
     size: 12
+  - tag: ExplosionMedium
+    prefab: {fileID: 5621733149859271129, guid: 23c201bb8278c5245ba9e4c916647a1e, type: 3}
+    size: 12
 --- !u!4 &685553203
 Transform:
   m_ObjectHideFlags: 0
