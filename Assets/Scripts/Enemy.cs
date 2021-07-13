@@ -89,22 +89,26 @@ public class Enemy : MonoBehaviour
     }
 
     public void TakeDamage(float dmg) {
-        health -= dmg;
-        animator.SetTrigger("Wounded");
-
-        if ((target == null) && health > 0f)
+        if (!isDead)
         {
-            target = player.transform;
-            animator.SetBool(isMovingHash, true);
-        }
-         // to get access to player, better to subscribe to the projectile's OnCollision?
+            health -= dmg;
+            animator.SetTrigger("Wounded");
 
-        if (health <= 0f) {
-            Dying();
-            animator.SetBool(isMovingHash, false);
-            target = null;
-            isDead = true;
-            Debug.Log("Enemy is dead");
+            if ((target == null) && health > 0f)
+            {
+                target = player.transform;
+                animator.SetBool(isMovingHash, true);
+            }
+            // to get access to player, better to subscribe to the projectile's OnCollision?
+
+            if (health <= 0f)
+            {
+                Dying();
+                animator.SetBool(isMovingHash, false);
+                target = null;
+                isDead = true;
+                Debug.Log("Enemy is dead");
+            }
         }
     }
 
