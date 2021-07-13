@@ -13,13 +13,13 @@ public class DamageableObjects : MonoBehaviour
     private int spriteStage;
     SpriteRenderer damagedObject;
     [SerializeField] Animator anim;
-    [SerializeField] string tag;
+    [SerializeField] string damageTag;
 
     [HideInInspector] public bool isDead = false;
 
     void Start()
     {
-        origHealth = damagePerSprite * (damagedStages.Length - 1);
+        origHealth = damagePerSprite * (damagedStages.Length);
         Debug.Log("Object Health is " + origHealth);
         objectHealth = origHealth;
         damagedObject = transform.GetComponent<SpriteRenderer>();
@@ -33,13 +33,11 @@ public class DamageableObjects : MonoBehaviour
         if (!isDead)
         {
             objectHealth -= damage;
-            float threshold = origHealth * (1 - ((float)spriteStage + 1) / (damagedStages.Length - 1));
-            Debug.Log("damage total is " + (1 - (spriteStage + 1) / (damagedStages.Length - 1)));
-            // int threshold = (origHealth - (spriteStage + 1) * origHealth / damagePerSprite);
+            float threshold = origHealth * (1 - ((float)spriteStage + 1 / damagedStages.Length));
             Debug.Log("threshold is " + threshold);
             Debug.Log("object health is " + objectHealth);
 
-            if ((objectHealth < threshold) && (spriteStage < (damagedStages.Length - 1)))
+            if ((objectHealth < threshold) && (spriteStage < (damagedStages.Length)))
             {
                 spriteStage++;
                 UpdateSprite();
@@ -60,8 +58,9 @@ public class DamageableObjects : MonoBehaviour
         }
         if (tag != null)
         {
-            objectPooler.SpawnFromPool("ExplosionMedium", transform.position, Quaternion.identity);            
+            objectPooler.SpawnFromPool(damageTag, transform.position, Quaternion.identity);            
         }
+        isDead = true;
 
     }
 
