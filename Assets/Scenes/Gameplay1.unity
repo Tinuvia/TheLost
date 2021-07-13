@@ -1495,7 +1495,7 @@ MonoBehaviour:
     prefab: {fileID: 8762236166402324352, guid: 6753239801d216a40b065dedea286c37, type: 3}
     size: 12
   - tag: ExplosionMedium
-    prefab: {fileID: 5621733149859271129, guid: 23c201bb8278c5245ba9e4c916647a1e, type: 3}
+    prefab: {fileID: 3317352303681705855, guid: 9c20358b09966cb41a65861168ceeb4e, type: 3}
     size: 12
 --- !u!4 &685553203
 Transform:

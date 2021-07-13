@@ -11,11 +11,8 @@ public class DamageableObjects : MonoBehaviour
     private float objectHealth;
     private float origHealth;
     private int spriteStage;
-    SpriteRenderer damagedObject;
-    [SerializeField] Animator anim;
-    [SerializeField] string damageTag;
-
-    [HideInInspector] public bool isDead = false;
+    private SpriteRenderer damagedObject;
+    private bool isDead = false;
 
     void Start()
     {
@@ -43,25 +40,13 @@ public class DamageableObjects : MonoBehaviour
                 UpdateSprite();
                 if (spriteStage == damagedStages.Length-1)
                 {
-                    ExplodeObject();
+                    Debug.Log("Trying to start explosion");
+                    gameObject.GetComponentInChildren<ExplodeObject>(true).StartExplosion();
+                    isDead = true;
+                    Debug.Log("isDead is true");
                 }
             }
         }
-    }
-
-    private void ExplodeObject()
-    {
-        // trigger anim "Explode"
-        if (anim != null)
-        {
-            anim.SetTrigger("Explode");
-        }
-        if (tag != null)
-        {
-            objectPooler.SpawnFromPool(damageTag, transform.position, Quaternion.identity);            
-        }
-        isDead = true;
-
     }
 
     void UpdateSprite()
