@@ -33,15 +33,15 @@ public class DamageableObjects : MonoBehaviour
         if (!isDead)
         {
             objectHealth -= damage;
-            float threshold = origHealth * (1 - ((float)spriteStage + 1 / damagedStages.Length));
+            float threshold = origHealth * ((damagedStages.Length - (float)spriteStage - 1 )/ damagedStages.Length);
             Debug.Log("threshold is " + threshold);
             Debug.Log("object health is " + objectHealth);
 
-            if ((objectHealth < threshold) && (spriteStage < (damagedStages.Length)))
+            if ((objectHealth <= threshold) && (spriteStage < (damagedStages.Length-1)))
             {
                 spriteStage++;
                 UpdateSprite();
-                if (spriteStage == damagedStages.Length)
+                if (spriteStage == damagedStages.Length-1)
                 {
                     ExplodeObject();
                 }
